@@ -18,18 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  zMaticoo iOS SDK CocoaPods Spec
                        DESC
-                       zMaticoo iOS SDK CocoaPods Spec
-  s.homepage         = 'hhttps://www.zmaticoo.com"'
+                       
+  s.homepage         = 'https://www.zmaticoo.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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' => '100345612@qq.com' }
-  s.source           = { :git => 'https://github.com/acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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/zMaticoo.git', :tag => s.version.to_s }
+  s.author           = { 'tianwenshi' => '100345612@qq.com' }
+  s.source           = { :git => 'https://github.com/cloudadrd/ApplinksCocoaPods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-  s.ios.vendored_frameworks = "MaticooSDK/Frameworks/MaticooSDK.framework"
+  s.ios.vendored_frameworks = 'MaticooSDK/Frameworks/MaticooSDK.framework'
+  s.ios.library = 'z'
 #  s.source_files = 'zMaticoo/Classes/**/*'
   
   # s.resource_bundles = {
