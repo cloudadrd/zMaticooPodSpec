@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "zMaticoo"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of zMaticoo."
+  spec.summary      = "zMaticoo iOS SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  zMaticoo iOS SDK CocoaPods Spec
                    DESC
 
   spec.homepage     = "https://www.zmaticoo.com"
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/zMaticoo.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/cloudadrd/zMaticooPodSpec.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
