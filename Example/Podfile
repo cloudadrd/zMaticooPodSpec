@@ -1,6 +1,13 @@
 use_frameworks!
-target 'ApplinsSDK_Tests' do
-  pod 'ApplinsSDK', :path => '../'
-  
-  
+
+platform :ios, '10.0'
+
+target 'zMaticoo_Example' do
+  pod 'zMaticoo', :path => '../'
+
+  target 'zMaticoo_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

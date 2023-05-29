@@ -1,9 +1,9 @@
-# ApplinsSDK
+# zMaticoo
 
-[![CI Status](https://img.shields.io/travis/tianwenshi/ApplinsSDK.svg?style=flat)](https://travis-ci.org/tianwenshi/ApplinsSDK)
-[![Version](https://img.shields.io/cocoapods/v/ApplinsSDK.svg?style=flat)](https://cocoapods.org/pods/ApplinsSDK)
-[![License](https://img.shields.io/cocoapods/l/ApplinsSDK.svg?style=flat)](https://cocoapods.org/pods/ApplinsSDK)
-[![Platform](https://img.shields.io/cocoapods/p/ApplinsSDK.svg?style=flat)](https://cocoapods.org/pods/ApplinsSDK)
+[![CI Status](https://img.shields.io/travis/acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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/zMaticoo.svg?style=flat)](https://travis-ci.org/acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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/zMaticoo)
+[![Version](https://img.shields.io/cocoapods/v/zMaticoo.svg?style=flat)](https://cocoapods.org/pods/zMaticoo)
+[![License](https://img.shields.io/cocoapods/l/zMaticoo.svg?style=flat)](https://cocoapods.org/pods/zMaticoo)
+[![Platform](https://img.shields.io/cocoapods/p/zMaticoo.svg?style=flat)](https://cocoapods.org/pods/zMaticoo)
 
 ## Example
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-ApplinsSDK is available through [CocoaPods](https://cocoapods.org). To install
+zMaticoo is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ApplinsSDK'
+pod 'zMaticoo'
 ```
 
 ## Author
 
-tianwenshi, lancelot.tian@yeahmobi.com
+acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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, 100345612@qq.com
 
 ## License
 
-ApplinsSDK is available under the MIT license. See the LICENSE file for more info.
+zMaticoo is available under the MIT license. See the LICENSE file for more info.

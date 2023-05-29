@@ -1,16 +1,16 @@
 PODS:
-  - ApplinsSDK (0.1.0)
+  - zMaticoo (0.1.0)
 
 DEPENDENCIES:
-  - ApplinsSDK (from `../`)
+  - zMaticoo (from `../`)
 
 EXTERNAL SOURCES:
-  ApplinsSDK:
-    :path: ../
+  zMaticoo:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ApplinsSDK: 988819ad3cca55827063aded779ff1672180edf2
+  zMaticoo: bb33cf7515e9795e04838d6895c095522bf7defc
 
-PODFILE CHECKSUM: 35a342acb9b1d841b3c87be49a70fbd5cdca7580
+PODFILE CHECKSUM: 1b8e59b51953e7e46b819d7c44243eab3476679e
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.12.1

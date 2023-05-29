@@ -1,9 +1,9 @@
 //
-//  ApplinsSDKTests.m
-//  ApplinsSDKTests
+//  zMaticooTests.m
+//  zMaticooTests
 //
-//  Created by tianwenshi on 12/26/2018.
-//  Copyright (c) 2018 tianwenshi. All rights reserved.
+//  Created by acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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 on 05/29/2023.
+//  Copyright (c) 2023 acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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. All rights reserved.
 //
 
 @import XCTest;
