@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
-  spec.ios.vendored_frameworks = 'MaticooSDK.framework'
+  spec.ios.vendored_frameworks = 'MaticooSDK/Frameworks/MaticooSDK.framework'
   spec.ios.library = 'z'
   # spec.public_header_files = "Classes/**/*.h"
 
