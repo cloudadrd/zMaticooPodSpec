@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "zMaticoo"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of zMaticoo."
+  spec.summary      = "zMaticoo iOS SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  zMaticoo iOS SDK CocoaPods Spec
                    DESC
 
   spec.homepage     = "https://www.zmaticoo.com"
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "{ :type => 'MIT', :file => 'LICENSE' }"
+  #spec.license      = "{ :type => 'MIT', :file => 'LICENSE' }"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -67,7 +68,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-   spec.ios.deployment_target = "9.0"
+   spec.ios.deployment_target = "11.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/zMaticoo.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/cloudadrd/zMaticooPodSpec.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +93,7 @@ Pod::Spec.new do |spec|
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
-  spec.ios.vendored_frameworks = 'ApplinsSDK/Frameworks/ApplinsSDK.framework'
+  spec.ios.vendored_frameworks = 'MaticooSDK.framework'
   spec.ios.library = 'z'
   # spec.public_header_files = "Classes/**/*.h"
 
