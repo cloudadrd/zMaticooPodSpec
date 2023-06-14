@@ -16,6 +16,9 @@
 @property (nonatomic, assign) BOOL removeProgressTrackAfterDraw;                //绘制完成后删除进度条轨道,默认不删除
 
 
+//Spalsh Skip Button
++ (instancetype _Nullable )initSkipButton;
+- (void)showSkipButtonFromTop:(NSInteger)top FromRight:(NSInteger)right skipTime:(NSInteger)skip superView:(UIView *_Nonnull)view buttonClicked:(void (^_Nonnull)(void))clicked;
 /**
  开始进度条动画
  

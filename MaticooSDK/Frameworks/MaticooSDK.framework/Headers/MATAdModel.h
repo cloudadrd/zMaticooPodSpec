@@ -38,8 +38,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *title;
 @property (nonatomic,strong) NSString *img_ad_url;              //✔︎ for image native ad
 @property (nonatomic,strong) NSString *video_ad_url;            //✔︎ for video native ad
+@property (nonatomic,strong) NSString *impurl;
 @property (nonatomic,strong) NSArray *imp_trackers;
-@property (nonatomic,strong) NSString *click_trackers;
+@property (nonatomic,strong) NSArray *click_trackers;
 @property (nonatomic,strong) NSString *click_through_url;
 @property (nonatomic,strong) NSString *sponsored_data;
 @property (nonatomic,strong) NSString *describe_data;
