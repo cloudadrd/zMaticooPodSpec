@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)trackVideoClick:(NSString*)pid adType:(NSInteger)adtype position:(NSString*)position dict:(NSDictionary*)baseDictionary;
 + (void)trackVideoClose:(NSString*)pid adType:(NSInteger)adtype dict:(NSDictionary*)baseDictionary;
 + (void)trackVideoMuted:(NSString*)pid adType:(NSInteger)adtype isMute:(BOOL)isMute dict:(NSDictionary*)baseDictionary;
++ (void)trackLoadWhileShowing:(NSString*)pid adType:(NSInteger)adtype dict:(NSDictionary*)baseDictionary;
 + (void)trackNativeAdClose:(NSString *)reason andPid:(NSString *)pid dict:(NSDictionary*)baseDictionary;
 + (void)trackInteractiveIconShow:(NSString *)pid dict:(NSDictionary*)baseDictionary;
 + (void)trackInteractiveIconClick:(NSString *)pid dict:(NSDictionary*)baseDictionary;
