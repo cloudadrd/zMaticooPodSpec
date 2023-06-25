@@ -6,7 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		mhUdB/QZbztqYMxm1m9sKe1PnYo=
+		Y8ps1636bbXLYJyGgg3sFpWn+5Y=
 		</data>
 		<key>Headers/MATAdModel.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/MATWebview.h</key>
 		<data>
-		H5e2BlKsZiiLd8AakMTd3kH+AD8=
+		lyKe6t5sxRhwjugORFdDjmxMWm8=
 		</data>
 		<key>Headers/MaticooAds.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3tVLkOOlE7y+70xlnzvjFAVLYpU=
+		bkimoHjzRyOJ0GXasjjQihy6mz0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -258,11 +258,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H5e2BlKsZiiLd8AakMTd3kH+AD8=
+			lyKe6t5sxRhwjugORFdDjmxMWm8=
 			</data>
 			<key>hash2</key>
 			<data>
-			HUH9eMKNZ1Z+gokjv0m5acjowDXBXKlq/UgqQrZM95Q=
+			RSeM2biI+WdAVtDVUuAxTCvJivT8sieHLSsKA8Al9gA=
 			</data>
 		</dict>
 		<key>Headers/MaticooAds.h</key>
