@@ -47,11 +47,4 @@
  */
 +(void)getImageFromURL:(NSString *)fileURL img:(void(^)(UIImage *ig))image;
 
-/**
- 获取当前设备的网络状态
- 
- @return 0 = 没有网络，3 = 移动网络， 5 = wifi网络
- */
-+ (int)getCurrentNetWorkState;
-
 @end
