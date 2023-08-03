@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		FkKd76265WFFNHZoEdhtgDAExRQ=
+		</data>
 		<key>Headers/MATAdModel.h</key>
 		<data>
 		MKbC55InUJ2yFDLF6yJaqmvckso=
@@ -58,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		I6eo43qdQw/KDxSaiOay/P6xvRQ=
+		5GT6HIPMv8/9A+AIUbhlrNQCmiU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -134,7 +138,7 @@
 		</data>
 		<key>PrivateHeaders/MATWebviewBridge.h</key>
 		<data>
-		Bkn0TzpfJPvC8DzetK7KxLT9dL4=
+		HtCMZifG2OnhJAbFxrgqbys15iA=
 		</data>
 		<key>PrivateHeaders/NSTimer+MATExtraMethod.h</key>
 		<data>
@@ -492,11 +496,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Bkn0TzpfJPvC8DzetK7KxLT9dL4=
+			HtCMZifG2OnhJAbFxrgqbys15iA=
 			</data>
 			<key>hash2</key>
 			<data>
-			I+hu5RkHgX5EyT2a36y3qt6PhEEeB5uG0PurrEmETMg=
+			ldwiQu0NEHBWAleZNiPUya+8fNgtA5xI+5ywEm0Pt4Y=
 			</data>
 		</dict>
 		<key>PrivateHeaders/NSTimer+MATExtraMethod.h</key>
