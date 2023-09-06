@@ -18,10 +18,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *token;  //sdk bidding token prefix
 @property (nonatomic,assign) NSInteger d;      //"is debug mode 1:Yes,0:No"
 @property (nonatomic,strong) NSArray<MATPlacement*> *pls;
+@property (nonatomic,assign) NSInteger ntv_close_total;
+@property (nonatomic,assign) NSInteger ntv_close_failed;
+@property (nonatomic,assign) NSInteger ort;     //1:portait 2:landscape 3:adaptive
 @end
 
 @interface MATPlacement : NSObject
-@property (nonatomic,assign)int64_t id;      //Placement ID
+@property (nonatomic,assign)int64_t pid;      //Placement ID
 @property (nonatomic,strong)NSString* n;        //Placement Name
 @property (nonatomic,assign)NSInteger t;        //AdType 1banner 2interstital 3rewarded 4natvie 5interactive 6splash
 @property (nonatomic,strong)MATBanner* bn;
@@ -30,6 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)MATNativeVideo* ntv;
 @property (nonatomic,strong)MATInteractive* ia;
 @property (nonatomic,strong)MATSplash* spl;
+@property (nonatomic,assign)NSInteger preload;
 @end
 
 @interface MATBanner : NSObject
@@ -41,6 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MATInterstitial : NSObject
 @property (nonatomic,assign)int64_t id;
 @property (nonatomic,assign)NSInteger type; //1-banner, 2- video, 0 - both
+@property (nonatomic,assign)NSInteger countdown;
 @end
 
 @interface MATRewardedVideo : NSObject
@@ -62,7 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MATSplash : NSObject
 @property (nonatomic,assign)int64_t id;
 @property (nonatomic,assign)NSInteger countdown;
-@property (nonatomic,assign)NSInteger skip;
+@property (nonatomic,assign)BOOL skip;
 @property (nonatomic,assign)NSInteger adshow;
 @end
 NS_ASSUME_NONNULL_END

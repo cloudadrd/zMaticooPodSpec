@@ -54,6 +54,7 @@ typedef NS_ENUM(NSUInteger, AdElement) {
 
 - (instancetype)initWithPlacementID:(NSString *)placementID;
 - (void)loadAd;
+- (void)loadAd:(NSString*)biddingRequestId;
 - (void)nativeAdClosedReportWithReason:(NSString * _Nullable)reason; // for user Self-Rendering style ad
 //Personalized settings
 - (void)setAdTemplateStyle;

@@ -11,18 +11,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MATRequestParameters : NSObject
 +(NSMutableDictionary *) buildBaseParameters;
++(NSMutableDictionary *) buildBIParameters;
++(NSMutableDictionary *) buildBiddingParameters;
 +(NSString *) buildLogUrl;
 +(NSString *) buildLogUrl:(NSString*) key;
 +(NSString *) buildInitUrl:(NSString*) key;
-+(NSMutableDictionary *) buildBannerParameters:(NSMutableDictionary*) dict pid:(NSInteger)pid cwidth:(NSInteger)width cheight:(NSInteger)height;
-+(NSString *) buildBannerUrl;
-+(NSString *) buildFullScreenAdUrl:(BOOL) isVideo;
++(NSString *) buildPrivacyUrl:(NSString*) key;
++(NSMutableDictionary *) buildBannerParameters:(NSMutableDictionary*) dict pid:(NSInteger)pid cwidth:(NSInteger)cwidth cheight:(NSInteger)cheight;
++(NSMutableDictionary *) buildFullScreenParameters:(NSMutableDictionary*) dict pid:(NSInteger)pid;
++(NSString *) buildRequestAdUrl;
 + (NSMutableDictionary *)buildNativeParameters:(NSMutableDictionary*)dic pid:(NSInteger)pid;
-+ (NSString *) buildNativeUrl;
 + (NSMutableDictionary *)buildInteractParameters:(NSMutableDictionary*)dic pid:(NSInteger)pid;
-+ (NSString *) buildInteractUrl;
 +(void) setAppkey:(NSString*)key;
 +(NSString*) getAppkey;
++(NSString *) buildBiddingUrl;
++(NSString *) buildBiddingAdUrl:(NSString*)requestId;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -36,9 +36,9 @@
  @param complete 回调Block
  @return id
  */
-+ (id)POST:(NSString *)path parameters:(NSDictionary *)params postCiphertext:(BOOL)isCiphertext completeHandle:(void (^)(id responseObj, NSError* error))complete;
-
++ (id)POST:(NSString *)path completeHandle:(void (^)(id responseObj, NSError* error))complete;
 + (id)POST:(NSString *)path parameters:(NSDictionary *)params completeHandle:(void (^)(id responseObj, NSError* error))complete;
++ (id)POST:(NSString *)path parameters:(NSDictionary *)params giz:(BOOL)gzip completeHandle:(void (^)(id responseObj, NSError* error))complete;
 /**
  获取图片素材
 

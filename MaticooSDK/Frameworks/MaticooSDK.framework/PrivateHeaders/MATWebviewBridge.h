@@ -27,6 +27,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)mraidBridgeVideoCompleted:(MATWebviewBridge*)bridge;
 - (void)mraidBridgeAdReward:(MATWebviewBridge*)bridge;
 - (void)mraidBridgeVideo:(MATWebviewBridge*)bridge isMuted:(BOOL)isMuted;
+- (void)mraidCloseVisible:(MATWebviewBridge*)bridge;
+- (void)mraidBridgeInteract:(MATWebviewBridge*)bridge info:(NSDictionary*)dict;
+- (void)mraidBridgeInteractClose:(MATWebviewBridge*)bridge;
+
 @end
 
 static NSString* MATWebviewBridgeCommandWindowOnload = @"onload";
