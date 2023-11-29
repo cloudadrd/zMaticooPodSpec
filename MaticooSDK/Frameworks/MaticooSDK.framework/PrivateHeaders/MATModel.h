@@ -21,6 +21,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger ntv_close_total;
 @property (nonatomic,assign) NSInteger ntv_close_failed;
 @property (nonatomic,assign) NSInteger ort;     //1:portait 2:landscape 3:adaptive
+@property (nonatomic,strong) NSDictionary* event;
+@property (nonatomic,assign) NSString* bi_url;     //bi的上报地址
+@property (nonatomic,assign) NSInteger test;     //测试设备
 @end
 
 @interface MATPlacement : NSObject

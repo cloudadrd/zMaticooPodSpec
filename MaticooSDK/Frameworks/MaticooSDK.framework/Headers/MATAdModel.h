@@ -9,13 +9,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class MATBidResponse, MATNativeResponse, MATInteractiveResponse;
+@class MATBidResponse, MATNativeResponse, MATInteractiveResponse, MATSKANResponse;
 
 @interface MATAdModel : NSObject
 @property (nonatomic,assign) NSInteger code;
 @property (nonatomic,strong) NSString *msg;
 @property (nonatomic,strong) MATBidResponse *bidresp;
 @property (nonatomic,strong) MATInteractiveResponse *interactiveresp;
+@property (nonatomic,assign) NSInteger ort;
 @end
 
 @interface MATBidResponse : NSObject
@@ -33,6 +34,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *adRequestId;
 @property (nonatomic,assign) CGFloat cat;
 @property (nonatomic,strong) MATNativeResponse *nativeResponse; //native ad respnose data
+@property (nonatomic,assign) NSInteger mraid;
+@property (nonatomic,strong) NSString *adm;
+@property (nonatomic,strong) MATSKANResponse *skadn;
 @end
 
 @interface MATNativeResponse : NSObject
@@ -58,5 +62,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *interactive_adv_id;
 @property (nonatomic,assign) NSInteger recall_interval;         //recall_interval
 @property (nonatomic,assign) NSInteger bi_app_id;
+@end
+
+@interface MATSKANResponse : NSObject
+@property (nonatomic,strong) NSString *ad_network_id;
+@property (nonatomic,strong) NSString *version;
+@property (nonatomic,strong) NSString *source_app_id;
+@property (nonatomic,strong) NSString *target_app_id;
+@property (nonatomic,strong) NSString *signature;
+@property (nonatomic,strong) NSString *campaign_id;
+@property (nonatomic,strong) NSString *nonce;
+@property (nonatomic,strong) NSString *timestamp;
+@property (nonatomic,strong) NSString *source_identifier;
 @end
 NS_ASSUME_NONNULL_END

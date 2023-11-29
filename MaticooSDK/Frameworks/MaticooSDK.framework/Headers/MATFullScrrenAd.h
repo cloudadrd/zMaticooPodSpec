@@ -33,6 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger countDown;
 @property (nonatomic, assign) BOOL canSkip;
 @property (nonatomic, assign) BOOL isPreloading;
+@property (nonatomic, assign) BOOL isH5CloseBtnClick;
 
 - (void)closeControlEvent;
 - (void)prepareCloseButton:(CGFloat)p;
@@ -53,6 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)pauseAd;
 - (void)resumeAd;
 - (void)dismissModalView:(MATWebview*)view animated:(BOOL)animated;
+- (void)showAd:(UIViewController*) vc;
 //- (void)webviewCacheSuccess;
 @end
 
