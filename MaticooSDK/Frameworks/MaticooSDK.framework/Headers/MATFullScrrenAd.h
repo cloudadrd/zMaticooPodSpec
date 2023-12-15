@@ -44,12 +44,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)cacheMediaFiles:(NSArray*)mediaFiles resources:(NSArray*)resources;
 - (NSInteger)getAdType;
 - (void)checkVideoPlay;
-- (void)webviewImp;
+- (void)webviewLayout;
 - (void)webviewClick;
 - (void)webviewVideoImp;
 - (void)webviewLoadSuccess;
 - (void)webviewLoadFailed:(NSString*) msg;
 - (void)webviewCloseVisible;
+- (void)impBITrack;
 - (void)loadAd;
 - (void)pauseAd;
 - (void)resumeAd;

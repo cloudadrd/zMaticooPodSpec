@@ -16,7 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)webviewLoadSuccess;
 - (void)webviewJsLoadSuccess;
 - (void)webviewLoadFailed:(NSString*)msg;
-- (void)webviewVideoImp;
+- (void)webviewImageImp; //image banner imp
+- (void)webviewVideoImp; //video imp
 - (void)webviewVideoCompleted;
 - (void)webviewVideoClick:(NSString*)position;
 - (void)webviewSKANClick:(NSDictionary*)productParameters position:(NSString*)position;
@@ -28,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)webviewInteractClose;
 //native
 - (void)webviewClick;
-- (void)webviewImp;
+- (void)webviewLayout;     //layout
 - (void)webviewPauseAd;
 - (void)webviewResumeAd;
 - (void)webviewJSLog:(NSString*)eventName params:(NSDictionary*)params;

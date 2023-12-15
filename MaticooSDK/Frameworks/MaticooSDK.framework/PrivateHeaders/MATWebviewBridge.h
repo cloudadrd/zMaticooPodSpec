@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)mraidBridgeCloseAd:(MATWebviewBridge*)bridge;
 - (void)mraidBridgeJSLoadSuccess:(MATWebviewBridge*)bridge;
 - (void)mraidBridgeJSLoadFailed:(MATWebviewBridge*)bridge;
+- (void)mraidBridgeImageImp:(MATWebviewBridge*)bridge;
 - (void)mraidBridgeVideoImp:(MATWebviewBridge*)bridge;
 - (void)mraidBridgeVideoClick:(MATWebviewBridge *)bridge position:(NSString *)position url:(NSString*)url;
 - (void)mraidBridgeVideoCompleted:(MATWebviewBridge*)bridge;
