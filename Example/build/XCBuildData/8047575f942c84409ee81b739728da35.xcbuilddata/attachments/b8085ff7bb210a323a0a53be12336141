@@ -1,0 +1,5 @@
+ extern const unsigned char Pods_zMaticoo_ExampleVersionString[];
+ extern const double Pods_zMaticoo_ExampleVersionNumber;
+
+ const unsigned char Pods_zMaticoo_ExampleVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_zMaticoo_Example  PROJECT:Pods-1" "\n";
+ const double Pods_zMaticoo_ExampleVersionNumber __attribute__ ((used)) = (double)1.;

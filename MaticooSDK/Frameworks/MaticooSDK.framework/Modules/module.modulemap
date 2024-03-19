@@ -1,6 +1,0 @@
-framework module MaticooSDK {
-  umbrella header "MaticooSDK.h"
-
-  export *
-  module * { export * }
-}
