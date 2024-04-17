@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString*)imageTypeForImageData:(NSData *)data;
 + (NSString *)getAPPIDFromLink:(NSString *)link;
 + (NSString*)timeNow;
++ (long long)getCurrentTime;
 + (CGFloat)distanceBetweenPoint:(CGPoint)point1 andPoint:(CGPoint)point2;
 
 + (BOOL)canPlay:(NSString*)url;

@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-zMaticoo in Pods, no dependencies
-Pods-zMaticoo_Example in Pods, depends on:
-zMaticoo in Pods (explicit)
-Pods-zMaticoo_Tests in Pods, depends on:
-Pods-zMaticoo_Example in Pods (explicit)

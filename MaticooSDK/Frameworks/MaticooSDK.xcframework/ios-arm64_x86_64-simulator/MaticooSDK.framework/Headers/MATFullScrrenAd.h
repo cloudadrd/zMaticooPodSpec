@@ -42,6 +42,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isSendDidLoad;
 @property (nonatomic, assign) BOOL isVideoCanPlay;
 @property (nonatomic, assign) BOOL isWebSuccess;
+@property (nonatomic, assign) NSInteger expire;
+@property (nonatomic, assign) long long adReturnTime;
 //@property (nonatomic, assign) BOOL isVideoPlayed;
 
 - (void)closeControlEvent;
