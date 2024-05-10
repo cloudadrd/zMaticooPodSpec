@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
-#import "MATAdModel.h"
+#import "MATADModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol MATWebviewDelegate <NSObject>
@@ -33,8 +33,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)webviewPauseAd;
 - (void)webviewResumeAd;
 - (void)webviewJSLog:(NSString*)eventName params:(NSDictionary*)params;
-- (void)webviewVastVideoInfo:(NSDictionary*)info;
-- (void)webviewVastVideoBridgeCompanionImp;
 @end
 
 @interface MATWebview : UIView
@@ -42,7 +40,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isVideoAd;
 @property (nonatomic, strong) UIViewController *inVC;
 @property (nonatomic, assign) BOOL isH5CloseBtnClick;
-@property (nonatomic, strong) NSString *videoInitJson;
 - (void)loadUrl:(NSString*)url;
 - (void)dissMiss;
 - (void)playVideo;
@@ -50,11 +47,7 @@ NS_ASSUME_NONNULL_BEGIN
 //- (void)setVideoCacheFailed;
 - (void)evaluate:(NSString*)script;
 - (void)setSKANResponse:(MATSKANResponse*) skad;
-- (void)setWebviewClearColor;
 
-//for new video multi-hierarchical rendering
-- (void)evaluateForVastVideo:(NSString*)script;
-    //for new video multi-hierarchical rendering
 @end
 
 NS_ASSUME_NONNULL_END

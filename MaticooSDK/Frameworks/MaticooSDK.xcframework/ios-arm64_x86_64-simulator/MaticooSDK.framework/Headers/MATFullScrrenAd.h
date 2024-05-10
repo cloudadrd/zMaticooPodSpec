@@ -13,7 +13,7 @@
 
 
 NS_ASSUME_NONNULL_BEGIN
-@class MATVideo;
+
 @interface MATFullScrrenAd : NSObject
 @property (nonatomic, strong) MATAdModel* ad;
 @property (nonatomic, strong) MATModalViewController* modalViewController;
@@ -34,17 +34,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL canSkip;
 @property (nonatomic, assign) BOOL isPreloading;
 @property (nonatomic, assign) BOOL isH5CloseBtnClick;
-@property (nonatomic, strong) MATVideo *matVideo;
-@property (nonatomic, strong) NSMutableDictionary *BIInfo;
-@property (nonatomic, strong) NSTimer *videoTimeOutTimer;
-@property (nonatomic, assign) NSInteger video_cache_ratio;
-@property (nonatomic, assign) NSInteger local;
-@property (nonatomic, assign) BOOL isSendDidLoad;
-@property (nonatomic, assign) BOOL isVideoCanPlay;
-@property (nonatomic, assign) BOOL isWebSuccess;
-@property (nonatomic, assign) NSInteger expire;
-@property (nonatomic, assign) long long adReturnTime;
-//@property (nonatomic, assign) BOOL isVideoPlayed;
 
 - (void)closeControlEvent;
 - (void)prepareCloseButton:(CGFloat)p;
@@ -67,20 +56,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)resumeAd;
 - (void)dismissModalView:(MATWebview*)view animated:(BOOL)animated;
 - (void)showAd:(UIViewController*) vc;
-- (void)setVideoUrl:(NSArray *)urlArr andTrackData:(MATVideoResponse *)trackModel videoDelegate:(id)delegate;
-- (void)sendClickTrack;
-- (void)videoLoadingTimeOut:(NSTimer *)timer;
-
-- (void)videoPlayerStatusReadyToPlay: (CGFloat)totalSeconds;
-- (void)videoCacheSeconds:(CGFloat)cacheSeconds totalSeconds:(CGFloat)totalSeconds;
-- (void)videoPlaybackProgressTrackCurrentSeconds:(CGFloat)currentSeconds totalSeconds:(CGFloat)totalSeconds;
-- (void)videoDidEnterBackground;
-- (void)videoEnterForeground;
-- (void)videoPlayEnd;
-- (void)videoLoadError:(NSInteger)errorCode;
-- (void)videoPlayFailedWithError:(NSError *)error;
-- (void)videoPlayState:(float)state;
-- (void)webviewCacheSuccess;
+//- (void)webviewCacheSuccess;
 @end
 
 NS_ASSUME_NONNULL_END
