@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class MATBidResponse, MATNativeResponse, MATInteractiveResponse, MATSKANResponse;
+@class MATBidResponse, MATNativeResponse, MATInteractiveResponse, MATSKANResponse, MATVideoResponse, MATVideoEventTrack, MATVideoIconsInfo,MATVideoCompanInfo,MATVideoCompanEventTrack;
 
 @interface MATAdModel : NSObject
 @property (nonatomic,assign) NSInteger code;
@@ -37,6 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger mraid;
 @property (nonatomic,strong) NSString *adm;
 @property (nonatomic,strong) MATSKANResponse *skadn;
+@property (nonatomic,strong) MATVideoResponse *video_response;
 @end
 
 @interface MATNativeResponse : NSObject
@@ -75,4 +76,65 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *timestamp;
 @property (nonatomic,strong) NSString *source_identifier;
 @end
+
+@interface MATVideoResponse : NSObject
+@property (nonatomic,strong) NSArray *imp_trackers;
+@property (nonatomic,strong) NSArray *click_tracking;
+@property (nonatomic,strong) NSString *click_through_url;
+@property (nonatomic,strong) MATVideoEventTrack *track_event;
+@property (nonatomic,strong) MATVideoCompanInfo *companion;;
+@property (nonatomic,strong) NSArray *error;
+@property (nonatomic,strong) NSArray <MATVideoIconsInfo*> *icons;
+@property (nonatomic,strong) NSString *type;
+@property (nonatomic,assign) NSInteger width;
+@property (nonatomic,assign) NSInteger height;
+@property (nonatomic,strong) NSString *title;
+@property (nonatomic,strong) NSString *desc;
+@property (nonatomic,strong) NSString *cta;
+@end
+
+@interface MATVideoEventTrack : NSObject
+@property (nonatomic,strong) NSArray *start;
+@property (nonatomic,strong) NSArray *firstQuartile;
+@property (nonatomic,strong) NSArray *midpoint;
+@property (nonatomic,strong) NSArray *thirdQuartile;
+@property (nonatomic,strong) NSArray *complete;
+@property (nonatomic,strong) NSArray *mute;
+@property (nonatomic,strong) NSArray *unmute;
+@property (nonatomic,strong) NSArray *rewind;
+@property (nonatomic,strong) NSArray *pause;
+@property (nonatomic,strong) NSArray *resume;
+@property (nonatomic,strong) NSArray *creativeView;
+@property (nonatomic,strong) NSArray *fullscreen;
+@property (nonatomic,strong) NSArray *acceptInvitationLinear;
+@property (nonatomic,strong) NSArray *close;
+@property (nonatomic,strong) NSArray *closeLinear;
+@property (nonatomic,strong) NSArray *exitFullscreen;
+@end
+
+
+@interface MATVideoIconsInfo : NSObject
+@property (nonatomic,strong) NSString *view_tracking;
+@property (nonatomic,strong) NSArray *click_tracking;
+@property (nonatomic,strong) NSString *click_through_url;
+@property (nonatomic,strong) NSString *static_resource;
+@property (nonatomic,strong) NSString *program;
+@property (nonatomic,assign) NSInteger width;
+@property (nonatomic,assign) NSInteger height;
+@property (nonatomic,strong) NSString *x_position;
+@property (nonatomic,strong) NSString *y_position;
+@end
+
+@interface MATVideoCompanInfo : NSObject
+@property (nonatomic,strong) NSString *static_resource;
+@property (nonatomic,strong) NSString *click_through_url;
+@property (nonatomic,strong) MATVideoCompanEventTrack *track_event;
+@property (nonatomic,assign) NSInteger width;
+@property (nonatomic,assign) NSInteger height;
+@end
+
+@interface MATVideoCompanEventTrack : NSObject
+@property (nonatomic,strong) NSArray *creativeView;
+@end
+
 NS_ASSUME_NONNULL_END

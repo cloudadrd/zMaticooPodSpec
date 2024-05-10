@@ -23,7 +23,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger ort;     //1:portait 2:landscape 3:adaptive
 @property (nonatomic,strong) NSDictionary* event;
 @property (nonatomic,assign) NSString* bi_url;     //bi的上报地址
+@property (nonatomic,assign) NSString *track_level;
 @property (nonatomic,assign) NSInteger test;     //测试设备
+@property (nonatomic,assign) NSInteger video_cache_ratio;
+@property (nonatomic,assign) NSInteger banner_cache_ratio;
+@property (nonatomic,strong) NSString* bi_app_id;
 @end
 
 @interface MATPlacement : NSObject

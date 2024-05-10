@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/MATAdModel.h</key>
 		<data>
-		hmxbZ2rUiysgiDgrzWbw0KpmljE=
+		WClyKsjlGDqQhrioX8PPyCip6Lg=
 		</data>
 		<key>Headers/MATBannerAd.h</key>
 		<data>
-		G8pziqU1DVCwgV9YvZN1iTe7cnQ=
+		b5tMmREEZl2nRJGeR3I3hyFjuPs=
 		</data>
 		<key>Headers/MATBiddingRequest.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MATFullScrrenAd.h</key>
 		<data>
-		sz4nT9Kokrh8uXqcF7iyxxul98Y=
+		VwQD9hRmFgwgHXJIH9ZCbiaSqvg=
 		</data>
 		<key>Headers/MATInteractAd.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/MATWebview.h</key>
 		<data>
-		kBdeMY5bCBRR+Y4A07IHhQA1DnI=
+		0AMSHzhODLVEWdF+c7S1j14Xd3s=
 		</data>
 		<key>Headers/MaticooAds.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+LffDo+qp7hj05Fr3dFpIjSozPQ=
+		GTaXkIEikrmXrlP/gVQ9R3r1mSM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>PrivateHeaders/MATModel.h</key>
 		<data>
-		Un4p2+NJhLxCeVt02qEIcNdHyIc=
+		GQwX9NZh2vpj0N9wjGCbL17X7GE=
 		</data>
 		<key>PrivateHeaders/MATModelProperties.h</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>PrivateHeaders/MATTools.h</key>
 		<data>
-		PxWki7kA5uM2K4cX9WErCA7GuO0=
+		lOBDrLzOvgj43m3UhswE5/f1mB0=
 		</data>
 		<key>PrivateHeaders/MATTrackManager.h</key>
 		<data>
-		9tgYKFrbYE7l2OLKMDACYUY+KxY=
+		+N8s5ssPF81Le6RCfO/Ns1pzB3s=
 		</data>
 		<key>PrivateHeaders/MATURLSessionNet.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>PrivateHeaders/MATWebviewBridge.h</key>
 		<data>
-		qN5VDO+hdgBOBjdBrlfhz8bNecE=
+		/G9CM34uDv4KQOX3LbcBow8hHAA=
 		</data>
 		<key>PrivateHeaders/NSTimer+MATExtraMethod.h</key>
 		<data>
@@ -159,22 +159,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hmxbZ2rUiysgiDgrzWbw0KpmljE=
+			WClyKsjlGDqQhrioX8PPyCip6Lg=
 			</data>
 			<key>hash2</key>
 			<data>
-			/4Ww0uIRG8pdYuMA5yXq/v7moRSKrKCOLMfkKHxOz54=
+			uuPmX35oML9krAxZYt4UFeHLTSuYuCZ6LXEJ6MMigV0=
 			</data>
 		</dict>
 		<key>Headers/MATBannerAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G8pziqU1DVCwgV9YvZN1iTe7cnQ=
+			b5tMmREEZl2nRJGeR3I3hyFjuPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			dBobKAP0RvRFehGHL5KlKkQK88+prpeQcIlPmx4FT5Q=
+			0sKE0asSpiVzJb37x0EiuewgyA4VboU55oH3igaJcTI=
 			</data>
 		</dict>
 		<key>Headers/MATBiddingRequest.h</key>
@@ -192,11 +192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sz4nT9Kokrh8uXqcF7iyxxul98Y=
+			VwQD9hRmFgwgHXJIH9ZCbiaSqvg=
 			</data>
 			<key>hash2</key>
 			<data>
-			e5epUtZcId3jfQS1H7EI+GuCjtiYa7SmouydrQNknAM=
+			Aawb2T47TWyKpVf5qIFPI/zuhGFvdLVidwmeSvajkGo=
 			</data>
 		</dict>
 		<key>Headers/MATInteractAd.h</key>
@@ -269,11 +269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kBdeMY5bCBRR+Y4A07IHhQA1DnI=
+			0AMSHzhODLVEWdF+c7S1j14Xd3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			2kLW5GHoTBd/jZMaLfob8NG19nRDP71rUtqcTZxYRGA=
+			psDQ9UA47yrQrw15TgSNWkDbM7UZ7Mltdb5usnlWaic=
 			</data>
 		</dict>
 		<key>Headers/MaticooAds.h</key>
@@ -390,11 +390,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Un4p2+NJhLxCeVt02qEIcNdHyIc=
+			GQwX9NZh2vpj0N9wjGCbL17X7GE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ER5QW9mgFPbNwWlqTOv524muP6i9UALh58IF3G6AD8E=
+			q59Nh6Ln27ZVCyd3YjFZqvcx6ihPf9TToNaxtv/CbHg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MATModelProperties.h</key>
@@ -478,22 +478,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PxWki7kA5uM2K4cX9WErCA7GuO0=
+			lOBDrLzOvgj43m3UhswE5/f1mB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			f8H5NhbNghZZHxcEhNJsvqkYHxzHW3wok7P3CuwgVg0=
+			JIojjpvYkdK1WsilXAvXiOHQunaS1d4nXPFxwo6GrMI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MATTrackManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9tgYKFrbYE7l2OLKMDACYUY+KxY=
+			+N8s5ssPF81Le6RCfO/Ns1pzB3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			bYfaZf7wmO5S8FQZVpPtcnU163db3zFQNcUxOIgkrBY=
+			PuJGg05d9tjqCxF9LeGlKI4On4NQglutk75nHuAdHdk=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MATURLSessionNet.h</key>
@@ -522,11 +522,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qN5VDO+hdgBOBjdBrlfhz8bNecE=
+			/G9CM34uDv4KQOX3LbcBow8hHAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			A7iFpZFvGcVNmvcZvvOG1az2fhwGlcYAEGf6p0uwOJI=
+			Cw5dq4GR6nb42UAVW7BDNY0HkKXZaTpjRv/vqqPqdvM=
 			</data>
 		</dict>
 		<key>PrivateHeaders/NSTimer+MATExtraMethod.h</key>
