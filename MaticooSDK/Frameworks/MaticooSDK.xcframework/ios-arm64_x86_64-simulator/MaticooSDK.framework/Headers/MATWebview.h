@@ -43,6 +43,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIViewController *inVC;
 @property (nonatomic, assign) BOOL isH5CloseBtnClick;
 @property (nonatomic, strong) NSString *videoInitJson;
+@property (nonatomic, strong) NSString *crid;
+@property (nonatomic, strong) NSString *finalUrl;
 - (void)loadUrl:(NSString*)url;
 - (void)dissMiss;
 - (void)playVideo;
@@ -55,6 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
 //for new video multi-hierarchical rendering
 - (void)evaluateForVastVideo:(NSString*)script;
     //for new video multi-hierarchical rendering
+- (void)setClickArea:(NSInteger)areaFlag ratio:(CGFloat)ratio;
 @end
 
 NS_ASSUME_NONNULL_END

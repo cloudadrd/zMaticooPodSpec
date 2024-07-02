@@ -60,6 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)setMediationName:(NSString*)n;
 
+-(void)setCustomData:(NSDictionary*)customData;
 @end
 
 NS_ASSUME_NONNULL_END

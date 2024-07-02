@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(NSMutableDictionary *) buildBannerParameters:(NSMutableDictionary*) dict pid:(NSInteger)pid cwidth:(NSInteger)cwidth cheight:(NSInteger)cheight;
 +(NSMutableDictionary *) buildFullScreenParameters:(NSMutableDictionary*) dict pid:(NSInteger)pid;
 +(NSString *) buildRequestAdUrl;
++(NSString *) buildRedirectUrl;
 + (NSMutableDictionary *)buildNativeParameters:(NSMutableDictionary*)dic pid:(NSInteger)pid;
 + (NSMutableDictionary *)buildInteractParameters:(NSMutableDictionary*)dic pid:(NSInteger)pid;
 +(void) setAppkey:(NSString*)key;

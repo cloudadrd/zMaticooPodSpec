@@ -27,12 +27,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *lurl;                    //LossNotice URL
 @property (nonatomic,strong) NSString *adurl;
 @property (nonatomic,strong) NSString *clkurl;
+@property (nonatomic,strong) NSString *crid;
+@property (nonatomic,strong) NSString *finalUrl;
 @property (nonatomic,strong) NSString *adType;                  //"for interstitial Ad:interstitial-banner/interstitial-video"
 @property (nonatomic,assign) NSInteger expire;                  //Expire time, in minutes
 @property (nonatomic,strong) NSArray *mediaFiles;               //media file for reward ad
 @property (nonatomic,strong) NSArray *resources;                //image/js file for reward ad
 @property (nonatomic,strong) NSString *adRequestId;
 @property (nonatomic,assign) CGFloat cat;
+@property (nonatomic,assign) NSInteger range;
+@property (nonatomic,assign) CGFloat range_ratio;
 @property (nonatomic,strong) MATNativeResponse *nativeResponse; //native ad respnose data
 @property (nonatomic,assign) NSInteger mraid;
 @property (nonatomic,strong) NSString *adm;

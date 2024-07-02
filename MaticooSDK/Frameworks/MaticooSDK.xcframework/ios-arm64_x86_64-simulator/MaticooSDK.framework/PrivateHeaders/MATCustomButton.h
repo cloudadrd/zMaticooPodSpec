@@ -37,4 +37,7 @@
 //停止绘制progress
 - (void)stop;
 
+- (UIButton *_Nullable)addBigAreaButtonWithParentView:(UIView *_Nonnull)parentView top:(NSInteger)topOffset right:(NSInteger) rightOffset redius:(NSInteger)redius AdClicked:(BOOL)clicked;
+- (void)resetBtton:(UIButton *_Nonnull)button parentView:(UIView *_Nonnull)parentView top:(NSInteger)topOffset right:(NSInteger) rightOffset redius:(NSInteger)redius;
+
 @end

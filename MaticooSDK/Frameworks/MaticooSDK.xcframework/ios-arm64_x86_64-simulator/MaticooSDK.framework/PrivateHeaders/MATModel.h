@@ -28,6 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger video_cache_ratio;
 @property (nonatomic,assign) NSInteger banner_cache_ratio;
 @property (nonatomic,strong) NSString* bi_app_id;
+@property (nonatomic,assign) NSInteger click_timeout;
+@property (nonatomic,assign) NSInteger landing_type;
+@property (nonatomic,assign) NSInteger active;
+@property (nonatomic,assign) NSInteger gzip;
 @end
 
 @interface MATPlacement : NSObject

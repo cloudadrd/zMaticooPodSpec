@@ -70,7 +70,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setVideoUrl:(NSArray *)urlArr andTrackData:(MATVideoResponse *)trackModel videoDelegate:(id)delegate;
 - (void)sendClickTrack;
 - (void)videoLoadingTimeOut:(NSTimer *)timer;
-
+- (void)buttonChangeBig;
 - (void)videoPlayerStatusReadyToPlay: (CGFloat)totalSeconds;
 - (void)videoCacheSeconds:(CGFloat)cacheSeconds totalSeconds:(CGFloat)totalSeconds;
 - (void)videoPlaybackProgressTrackCurrentSeconds:(CGFloat)currentSeconds totalSeconds:(CGFloat)totalSeconds;
