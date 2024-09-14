@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MATBannerAd.h</key>
 		<data>
-		b5tMmREEZl2nRJGeR3I3hyFjuPs=
+		h8ziMl+5nRfH31ErgkJfIDI+pTc=
 		</data>
 		<key>Headers/MATBiddingRequest.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MATFullScrrenAd.h</key>
 		<data>
-		7yRGngdVocRyOhU1enNfl8W9yt4=
+		BOz/zDE8B6/umVPgSsgAARHpDKo=
 		</data>
 		<key>Headers/MATInteractAd.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rT0ThhVs0PFC5saQbZ4JMTUanRg=
+		eHkA+n+aD/mJDAQpQ5FXOOhCwFE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>PrivateHeaders/MATRequestParameters.h</key>
 		<data>
-		v+SpzUEvRdIL/oMpCaNEAG0ZHO0=
+		CbmNh62pDEgKZb+eA34QXYhrUlY=
 		</data>
 		<key>PrivateHeaders/MATTools.h</key>
 		<data>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b5tMmREEZl2nRJGeR3I3hyFjuPs=
+			h8ziMl+5nRfH31ErgkJfIDI+pTc=
 			</data>
 			<key>hash2</key>
 			<data>
-			0sKE0asSpiVzJb37x0EiuewgyA4VboU55oH3igaJcTI=
+			mkZb3und0EZmM8KpS8+9S2MOhZeiyMhXIhiK8N7WUcw=
 			</data>
 		</dict>
 		<key>Headers/MATBiddingRequest.h</key>
@@ -192,11 +192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7yRGngdVocRyOhU1enNfl8W9yt4=
+			BOz/zDE8B6/umVPgSsgAARHpDKo=
 			</data>
 			<key>hash2</key>
 			<data>
-			iTmcqfdCQh8u7ZvZsv0Ndh2kSofdkWWRzSjWRDSV1BI=
+			QfuhHOqn0PFXF4x9jF7yk8Z9F4F+K4o3aZ5o2V1jBfc=
 			</data>
 		</dict>
 		<key>Headers/MATInteractAd.h</key>
@@ -467,11 +467,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v+SpzUEvRdIL/oMpCaNEAG0ZHO0=
+			CbmNh62pDEgKZb+eA34QXYhrUlY=
 			</data>
 			<key>hash2</key>
 			<data>
-			TArVOJupNTpJ0IpHqbSeNQa4QoxyfGKmB0NrppwlmyY=
+			kPYFYfz18a20to3ze8IEp2Kbi4zTWTQt8X10huG3aCI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MATTools.h</key>

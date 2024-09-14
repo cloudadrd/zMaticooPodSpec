@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(NSString *) buildLogUrl:(NSString*) key;
 +(NSString *) buildInitUrl:(NSString*) key;
 +(NSString *) buildPrivacyUrl:(NSString*) key;
++(NSString *) buildErrorUrl:(NSString*) key;
 +(NSMutableDictionary *) buildBannerParameters:(NSMutableDictionary*) dict pid:(NSInteger)pid cwidth:(NSInteger)cwidth cheight:(NSInteger)cheight;
 +(NSMutableDictionary *) buildFullScreenParameters:(NSMutableDictionary*) dict pid:(NSInteger)pid;
 +(NSString *) buildRequestAdUrl;
