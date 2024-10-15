@@ -35,7 +35,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)webviewJSLog:(NSString*)eventName params:(NSDictionary*)params;
 - (void)webviewVastVideoInfo:(NSDictionary*)info;
 - (void)webviewVastVideoBridgeCompanionImp;
+
+//escalation delegate
+-(void)escalationEventError:(NSError *)error withEventType:(NSString *)type andUrl:(NSString *)url;
 @end
+
 
 @interface MATWebview : UIView
 @property (nonatomic, weak) id<MATWebviewDelegate> delegate;
@@ -45,6 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *videoInitJson;
 @property (nonatomic, strong) NSString *crid;
 @property (nonatomic, strong) NSString *finalUrl;
+@property (nonatomic, assign) BOOL isMutltipleAd;
 - (void)loadUrl:(NSString*)url;
 - (void)dissMiss;
 - (void)playVideo;
@@ -57,7 +62,8 @@ NS_ASSUME_NONNULL_BEGIN
 //for new video multi-hierarchical rendering
 - (void)evaluateForVastVideo:(NSString*)script;
     //for new video multi-hierarchical rendering
-- (void)setClickArea:(NSInteger)areaFlag ratio:(CGFloat)ratio;
+- (void)setClickArea:(NSInteger)areaFlag ratio:(CGFloat)ratio isMutltipleAd:(BOOL)isMutltiple;
+- (void)setAutoClick:(NSInteger)autoClick;
 @end
 
 NS_ASSUME_NONNULL_END

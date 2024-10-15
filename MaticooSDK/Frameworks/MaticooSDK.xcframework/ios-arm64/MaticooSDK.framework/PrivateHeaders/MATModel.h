@@ -32,6 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger landing_type;
 @property (nonatomic,assign) NSInteger active;
 @property (nonatomic,assign) NSInteger gzip;
+@property (nonatomic,assign) double visible_rate;
+@property (nonatomic,assign) NSInteger no_fill_count;
 @end
 
 @interface MATPlacement : NSObject
@@ -51,6 +53,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign)int64_t id;
 @property (nonatomic,assign)NSInteger w;
 @property (nonatomic,assign)NSInteger h;
+@property (nonatomic,assign)NSInteger interval;
 @end
 
 @interface MATInterstitial : NSObject

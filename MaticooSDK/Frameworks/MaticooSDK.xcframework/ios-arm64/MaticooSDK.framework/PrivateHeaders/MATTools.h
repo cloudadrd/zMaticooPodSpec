@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString*)imageTypeForImageData:(NSData *)data;
 + (NSString *)getAPPIDFromLink:(NSString *)link;
 + (NSString*)timeNow;
++ (BOOL) isToday:(long) time;
 + (long long)getCurrentTime;
 + (CGFloat)distanceBetweenPoint:(CGPoint)point1 andPoint:(CGPoint)point2;
 
@@ -28,6 +29,23 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)getVideoPathFromURL:(NSString *)url isLocal:(BOOL *)isLocal videoType:(NSString*)videoType;
 + (NSString *)getVideoType:(NSString *)typeStr;
 + (NSString *)creatSendToJSVastVideoInitStr:(MATVideoResponse *)videoModel url:(NSArray *)urlArray;
+
++ (BOOL)isViewCovered:(UIView *)view;
++ (NSInteger)isViewCovered:(UIView *)view intersectionAreaRatio:(CGFloat)intersectionRatio;
++ (double)rateViewIntersectionWindow:(UIView *)view;
+/**
+ 检测是否设置了代理
+
+ @return bool
+ */
++ (BOOL)fetchHttpProxy;
+
++ (BOOL) isCharging;
+
++ (BOOL) checkRequestFailTimes;
++ (void) increaseRequestFailTimes;
++ (void) resetRequestFailTimes;
+
 @end
 
 NS_ASSUME_NONNULL_END

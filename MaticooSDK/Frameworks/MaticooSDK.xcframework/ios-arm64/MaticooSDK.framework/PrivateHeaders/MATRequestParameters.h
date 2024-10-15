@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(NSString*) getAppkey;
 +(NSString *) buildBiddingUrl;
 +(NSString *) buildBiddingAdUrl:(NSString*)requestId;
++(NSDictionary *)sendErrorToServer:(NSError *)error withEventType:(NSString *)type andInfo:(NSDictionary *)info;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -34,6 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)trackInteractiveIconShowBi:(NSString *)pid rid:(NSString*)rid otherInfo:(NSDictionary *)info;
 + (void)trackInteractiveIconClickBi:(NSString *)pid rid:(NSString*)rid otherInfo:(NSDictionary *)info;
 + (void)trackAdImp:(NSString *)pid adType:(NSInteger)adtype rid:(NSString*)rid otherInfo:(NSDictionary *)info;
++ (void)trackAdImpInterval:(NSString *)pid adType:(NSInteger)adtype rid:(NSString*)rid visible:(NSInteger)visible otherInfo:(NSDictionary *)info;
 + (void)trackAdLayout:(NSString *)pid adType:(NSInteger)adtype rid:(NSString*)rid otherInfo:(NSDictionary *)info;
 + (void)trackPrivacyClick:(NSString *)pid adType:(NSInteger)adtype msgType:(NSInteger)msgType rid:(NSString*)rid;
 + (void)trackInteractiveWebEvent:(NSString*)pid biDict:(NSDictionary*)biDictionary baseDict:(NSDictionary*)baseDictionary h5Dict:(NSDictionary*) h5Dict rid:(NSString*)rid otherInfo:(NSDictionary *)info;

@@ -29,19 +29,25 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *clkurl;
 @property (nonatomic,strong) NSString *crid;
 @property (nonatomic,strong) NSString *finalUrl;
+@property (nonatomic,strong) NSString *impurl;
 @property (nonatomic,strong) NSString *adType;                  //"for interstitial Ad:interstitial-banner/interstitial-video"
 @property (nonatomic,assign) NSInteger expire;                  //Expire time, in minutes
 @property (nonatomic,strong) NSArray *mediaFiles;               //media file for reward ad
 @property (nonatomic,strong) NSArray *resources;                //image/js file for reward ad
 @property (nonatomic,strong) NSString *adRequestId;
+@property (nonatomic,strong) NSString *gid;
+@property (nonatomic,strong) NSString *dsp;
 @property (nonatomic,assign) CGFloat cat;
 @property (nonatomic,assign) NSInteger range;
+@property (nonatomic,assign) NSInteger autoClick;
+@property (nonatomic,assign) NSInteger multi;
 @property (nonatomic,assign) CGFloat range_ratio;
 @property (nonatomic,strong) MATNativeResponse *nativeResponse; //native ad respnose data
 @property (nonatomic,assign) NSInteger mraid;
 @property (nonatomic,strong) NSString *adm;
 @property (nonatomic,strong) MATSKANResponse *skadn;
 @property (nonatomic,strong) MATVideoResponse *video_response;
+@property (nonatomic,assign) NSTimeInterval vc_interval;
 @end
 
 @interface MATNativeResponse : NSObject
@@ -49,7 +55,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *title;
 @property (nonatomic,strong) NSString *img_ad_url;              //✔︎ for image native ad
 @property (nonatomic,strong) NSString *video_ad_url;            //✔︎ for video native ad
-@property (nonatomic,strong) NSString *impurl;
 @property (nonatomic,strong) NSArray *imp_trackers;
 @property (nonatomic,strong) NSArray *click_trackers;
 @property (nonatomic,strong) NSString *click_through_url;

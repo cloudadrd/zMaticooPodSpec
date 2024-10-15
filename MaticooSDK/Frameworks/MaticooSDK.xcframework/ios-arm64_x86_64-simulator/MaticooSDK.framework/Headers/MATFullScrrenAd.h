@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isLoading;
 @property (nonatomic, assign) BOOL isShowing;
 @property (nonatomic, assign) BOOL alreadyImp;
-@property (nonatomic, assign) BOOL alreadyPlayVideo;
+@property (atomic, assign) BOOL alreadyPlayVideo;
 @property (nonatomic, assign) BOOL alreadyCloseVisible;
 @property (nonatomic, strong) NSString *biddingRequestId;
 @property (nonatomic, assign) NSInteger adShow;
@@ -44,6 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isWebSuccess;
 @property (nonatomic, assign) NSInteger expire;
 @property (nonatomic, assign) long long adReturnTime;
+@property (nonatomic, assign) BOOL isMutltipleAd;
 @property (nonatomic, strong) NSString *adRequestFromServer;
 @property (nonatomic, assign) float currentSeconds;
 @property (nonatomic, assign) float totalSeconds;
@@ -64,8 +65,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)webviewVideoImp;
 - (void)webviewLoadSuccess;
 - (void)webviewLoadFailed:(NSString*) msg;
+- (void)trackAdImpUrl;
 - (void)webviewCloseVisible;
-- (void)impBITrack;
+- (void)impBannerBITrack;
 - (void)loadAd;
 - (void)pauseAd;
 - (void)resumeAd;
@@ -85,7 +87,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)videoPlayFailedWithError:(NSError *)error;
 - (void)videoPlayState:(float)state;
 - (void)webviewCacheSuccess;
-- (void)sendErrorToServer:(NSError *)error;
+-(void)sendErrorToServer:(NSError *)error withEventType:(NSString *)type andUrl:(NSString *)url;
 @end
 
 NS_ASSUME_NONNULL_END
