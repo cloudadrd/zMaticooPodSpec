@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#define MAT_EXTRA_GPID   @"gpid"
+
 @interface MaticooAds : NSObject
 /**
  You should pass the singleton method to create the object, then calls the requests of the different types of ads.

@@ -49,6 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) float currentSeconds;
 @property (nonatomic, assign) float totalSeconds;
 @property (nonatomic, strong) NSString *crid;
+@property (nonatomic, strong) NSDictionary *localExtra;
 //@property (nonatomic, assign) BOOL isVideoPlayed;
 
 - (void)closeControlEvent;
@@ -87,7 +88,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)videoPlayFailedWithError:(NSError *)error;
 - (void)videoPlayState:(float)state;
 - (void)webviewCacheSuccess;
--(void)sendErrorToServer:(NSError *)error withEventType:(NSString *)type andUrl:(NSString *)url;
+- (void)sendErrorToServer:(NSError *)error withEventType:(NSString *)type andUrl:(NSString *)url;
+- (void)autoStoreShowWithAsk:(NSInteger)ask andClickUrlArr:(NSArray *)urlArr;
 @end
 
 NS_ASSUME_NONNULL_END

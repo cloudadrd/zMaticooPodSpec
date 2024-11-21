@@ -27,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)webviewCloseVisible;
 - (void)webviewInteract:(NSDictionary*)dict;
 - (void)webviewInteractClose;
+- (void)webviewVideoAdJump;
 //native
 - (void)webviewClick;
 - (void)webviewLayout;     //layout

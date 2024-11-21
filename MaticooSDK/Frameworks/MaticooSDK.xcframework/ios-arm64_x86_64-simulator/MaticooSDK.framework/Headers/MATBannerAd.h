@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MATBannerAd : UIView
 @property (nonatomic, weak) id<MATBannerAdDelegate> delegate;
 @property (nonatomic, strong) NSString* placementID;
+@property (nonatomic, strong) NSDictionary* localExtra;
 - (MATBannerAd*)initWithPlacementID:(NSString*)placementID;
 - (void)loadAd;
 - (void)loadAd:(NSString*)biddingRequestId;

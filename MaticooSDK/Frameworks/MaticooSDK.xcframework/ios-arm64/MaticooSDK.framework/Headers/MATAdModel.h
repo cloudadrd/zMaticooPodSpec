@@ -48,6 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) MATSKANResponse *skadn;
 @property (nonatomic,strong) MATVideoResponse *video_response;
 @property (nonatomic,assign) NSTimeInterval vc_interval;
+@property (nonatomic,assign) NSInteger ask;
 @end
 
 @interface MATNativeResponse : NSObject
