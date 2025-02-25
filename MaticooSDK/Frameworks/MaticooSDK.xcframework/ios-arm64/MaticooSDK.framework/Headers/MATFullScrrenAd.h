@@ -50,6 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) float totalSeconds;
 @property (nonatomic, strong) NSString *crid;
 @property (nonatomic, strong) NSDictionary *localExtra;
+@property (nonatomic, assign) BOOL alreadyTrackLoad;
 //@property (nonatomic, assign) BOOL isVideoPlayed;
 
 - (void)closeControlEvent;
@@ -67,6 +68,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)webviewLoadSuccess;
 - (void)webviewLoadFailed:(NSString*) msg;
 - (void)trackAdImpUrl;
+- (void)trackAdLoadUrl;
 - (void)webviewCloseVisible;
 - (void)impBannerBITrack;
 - (void)loadAd;

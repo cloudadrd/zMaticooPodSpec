@@ -30,6 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *crid;
 @property (nonatomic,strong) NSString *finalUrl;
 @property (nonatomic,strong) NSString *impurl;
+@property (nonatomic,strong) NSString *loadurl;
 @property (nonatomic,strong) NSString *adType;                  //"for interstitial Ad:interstitial-banner/interstitial-video"
 @property (nonatomic,assign) NSInteger expire;                  //Expire time, in minutes
 @property (nonatomic,strong) NSArray *mediaFiles;               //media file for reward ad
