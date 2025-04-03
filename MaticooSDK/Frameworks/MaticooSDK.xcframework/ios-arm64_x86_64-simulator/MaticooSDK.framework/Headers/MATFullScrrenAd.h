@@ -59,7 +59,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeCloseButton;
 - (void)setButtonImage;
 - (void)presentModalView:(UIView*)view UIController:(UIViewController*) viewController;
-- (void)cacheMediaFiles:(NSArray*)mediaFiles resources:(NSArray*)resources;
 - (NSInteger)getAdType;
 - (void)checkVideoPlay;
 - (void)webviewLayout;
@@ -89,6 +88,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)videoLoadError:(NSError *)error;
 - (void)videoPlayFailedWithError:(NSError *)error;
 - (void)videoPlayState:(float)state;
+- (void)cacheMediaFiles;
 - (void)webviewCacheSuccess;
 - (void)sendErrorToServer:(NSError *)error withEventType:(NSString *)type andUrl:(NSString *)url;
 - (void)autoStoreShowWithAsk:(NSInteger)ask andClickUrlArr:(NSArray *)urlArr;

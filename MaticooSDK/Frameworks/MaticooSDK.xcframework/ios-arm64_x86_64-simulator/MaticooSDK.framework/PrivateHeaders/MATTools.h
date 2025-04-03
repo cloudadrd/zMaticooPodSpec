@@ -47,6 +47,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (void) increaseRequestFailTimes;
 + (void) resetRequestFailTimes;
 
++ (NSString *)removeAllParametersFromURL:(NSString *)urlString;
+
 @end
 
 NS_ASSUME_NONNULL_END

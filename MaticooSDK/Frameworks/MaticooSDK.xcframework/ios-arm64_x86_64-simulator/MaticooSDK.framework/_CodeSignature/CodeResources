@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MATFullScrrenAd.h</key>
 		<data>
-		llCPKmwPxW684v1RxYD1BoFvtfU=
+		79epfAVCiPkKAeuQk5las+qmIgY=
 		</data>
 		<key>Headers/MATInteractAd.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4tpRfPaOPmuk+0WEyIW/zYwkDSw=
+		oDaDeVUyqkNvE1KQQAHdr7yTQXs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>PrivateHeaders/MATModel.h</key>
 		<data>
-		RBcQ/A3SqND+CXEiRmhWb+rwt/g=
+		nFsn93BYuTOMSE/lpRceVJN+Nrs=
 		</data>
 		<key>PrivateHeaders/MATModelProperties.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>PrivateHeaders/MATTools.h</key>
 		<data>
-		ycA0raGnr7K1JDwIuHokuliMvw8=
+		89uNm4Edr5etQPwxb562QG1x4UA=
 		</data>
 		<key>PrivateHeaders/MATTrackManager.h</key>
 		<data>
@@ -192,11 +192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			llCPKmwPxW684v1RxYD1BoFvtfU=
+			79epfAVCiPkKAeuQk5las+qmIgY=
 			</data>
 			<key>hash2</key>
 			<data>
-			JUSaNUop3besGths6K8zDHX5oiPFpowVFcdlngCfy4E=
+			qh8/1T+yQHcTyrHC0VzyFaU62lDzzfpuMGE949cbh2o=
 			</data>
 		</dict>
 		<key>Headers/MATInteractAd.h</key>
@@ -390,11 +390,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RBcQ/A3SqND+CXEiRmhWb+rwt/g=
+			nFsn93BYuTOMSE/lpRceVJN+Nrs=
 			</data>
 			<key>hash2</key>
 			<data>
-			53DNiYMatZQnfUBWBbEAbdiWVePjpzEOppQpfupaXFc=
+			I1DFX467A+He6cQ7UxcUwbqKat9XLTzjQ3vCyKj3SLo=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MATModelProperties.h</key>
@@ -478,11 +478,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ycA0raGnr7K1JDwIuHokuliMvw8=
+			89uNm4Edr5etQPwxb562QG1x4UA=
 			</data>
 			<key>hash2</key>
 			<data>
-			sgo887Dg3oyJ1tyict5dEjpMngzSvgnHuXjaS73jAVM=
+			gyppJbIAB2ED3Zvgkc0wVIdUqfj/ANylhBKR8Nqt+Zc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MATTrackManager.h</key>

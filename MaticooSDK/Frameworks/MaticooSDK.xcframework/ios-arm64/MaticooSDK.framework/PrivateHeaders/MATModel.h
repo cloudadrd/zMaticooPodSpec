@@ -35,6 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) double visible_rate;
 @property (nonatomic,assign) NSInteger no_fill_count;
 @property (nonatomic,strong) NSArray<NSString*> *bi_events;
+@property (atomic,strong) NSString* ios_bundle;
 @end
 
 @interface MATPlacement : NSObject
