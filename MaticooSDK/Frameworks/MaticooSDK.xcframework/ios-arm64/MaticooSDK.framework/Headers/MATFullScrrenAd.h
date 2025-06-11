@@ -90,7 +90,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)videoPlayState:(float)state;
 - (void)cacheMediaFiles;
 - (void)webviewCacheSuccess;
-- (void)sendErrorToServer:(NSError *)error withEventType:(NSString *)type andUrl:(NSString *)url;
+- (void)sendErrorToServer:(NSError *)error andType:(NSString *)type andUrl:(NSString *)url;
 - (void)autoStoreShowWithAsk:(NSInteger)ask andClickUrlArr:(NSArray *)urlArr;
 @end
 
