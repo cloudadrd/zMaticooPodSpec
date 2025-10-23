@@ -1,6 +1,0 @@
-framework module zMaticoo {
-  umbrella header "zMaticoo-umbrella.h"
-
-  export *
-  module * { export * }
-}

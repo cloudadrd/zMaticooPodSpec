@@ -1,6 +1,0 @@
-framework module Pods_zMaticoo_Tests {
-  umbrella header "Pods-zMaticoo_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

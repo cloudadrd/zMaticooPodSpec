@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-Target 'Pods-zMaticoo_Tests' in project 'Pods'
-➜ Explicit dependency on target 'Pods-zMaticoo_Example' in project 'Pods'
-Target 'Pods-zMaticoo_Example' in project 'Pods'
-➜ Explicit dependency on target 'zMaticoo' in project 'Pods'
-Target 'zMaticoo' in project 'Pods' (no dependencies)
