@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zMaticoo'
-  s.version          = '1.5.4.5'
+  s.version          = '1.5.4.6'
   s.summary          = 'zMaticoo iOS SDK'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/cloudadrd/zMaticooPodSpec.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   s.ios.vendored_frameworks = 'MaticooSDK/Frameworks/MaticooSDK.xcframework'
   s.ios.library = 'z'
 #  s.source_files = 'zMaticoo/Classes/**/*'
