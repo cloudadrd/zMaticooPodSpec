@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MATWeakScriptMessageDelegate : NSObject <WKScriptMessageHandler>
 
-@property (nonatomic, assign) id<WKScriptMessageHandler> scriptDelegate;
+@property (nonatomic, weak) id<WKScriptMessageHandler> scriptDelegate;
 
 - (instancetype)initWithDelegate:(id<WKScriptMessageHandler>)scriptDelegate;
 

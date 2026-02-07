@@ -53,7 +53,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface MATNativeResponse : NSObject
-@property (nonatomic,assign) NSString *icon_url;
+@property (nonatomic,strong) NSString *icon_url;
 @property (nonatomic,strong) NSString *title;
 @property (nonatomic,strong) NSString *img_ad_url;              //✔︎ for image native ad
 @property (nonatomic,strong) NSString *video_ad_url;            //✔︎ for video native ad
