@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zMaticoo'
-  s.version          = '1.5.5'
+  s.version          = '1.5.6'
   s.summary          = 'zMaticoo iOS SDK'
 
 # This description is used to generate tags and improve search results.
