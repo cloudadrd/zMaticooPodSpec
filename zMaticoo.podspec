@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zMaticoo'
-  s.version          = '1.5.6'
+  s.version          = '2.0.0'
   s.summary          = 'zMaticoo iOS SDK'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'MaticooSDK/Frameworks/MaticooSDK.xcframework'
   s.ios.library = 'z'
 #  s.source_files = 'zMaticoo/Classes/**/*'
-  
+  s.resources = "MaticooSDK/**/*.{bundle}"
   # s.resource_bundles = {
   #   'zMaticoo' => ['zMaticoo/Assets/*.png']
   # }

@@ -1,24 +1,29 @@
 //
 //  MATInterstitialAd.h
-//  MaticooSDK
+//  zMaticooSDK
 //
-//  Created by root on 2023/4/23.
+//  Created by Mirinda on 2025/12/10.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "MATFullScrrenAd.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol MATInterstitialAdDelegate;
 
-@interface MATInterstitialAd : MATFullScrrenAd
+@interface MATInterstitialAd : NSObject
+@property (nonatomic, assign, readonly) BOOL isReady;
+@property (nonatomic, assign) BOOL isVideo;
+@property (nonatomic, assign) BOOL isHeaderBidding;
+@property (assign, nonatomic) BOOL videoMute;
 @property (nonatomic, weak) id<MATInterstitialAdDelegate> delegate;
 - (MATInterstitialAd*)initWithPlacementID:(NSString*)placementID;
-- (void)loadAd;
+- (void)loadAd NS_SWIFT_NAME(loadAd());
 - (void)loadAd:(NSString*)biddingRequestId;
+- (void)loadAdExtraMap:(NSDictionary<NSString *, id> *)extraMap;
 - (void)showAdFromViewController:(UIViewController*) vc;
 - (void)showAdFromRootViewController;
++ (void)destroy:(NSArray<NSString *> *)placementIDs;
 @end
 
 @protocol MATInterstitialAdDelegate <NSObject>
@@ -29,6 +34,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)interstitialAdDidClick:(MATInterstitialAd *)interstitialAd;
 - (void)interstitialAdWillClose:(MATInterstitialAd *)interstitialAd;
 - (void)interstitialAdDidClose:(MATInterstitialAd *)interstitialAd;
+- (void)interstitialAdDidSkip:(MATInterstitialAd *)interstitialAd;
+- (void)interstitialAdEndCardShow:(MATInterstitialAd *)interstitialAd;
 @end
 
 NS_ASSUME_NONNULL_END

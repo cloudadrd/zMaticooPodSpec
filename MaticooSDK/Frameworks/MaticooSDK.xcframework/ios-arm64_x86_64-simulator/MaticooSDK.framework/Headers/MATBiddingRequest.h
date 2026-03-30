@@ -8,27 +8,26 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-@protocol MATBiddingRequestDelegate;
-@interface MATBiddingResult : NSObject
-@property (nonatomic,strong) NSString* request_id;
-@property (nonatomic,strong) NSNumber* ecpm;
-@property (nonatomic,strong) NSString* nurl;
+@interface MATBiddingResponse : NSObject
+@property (assign, nonatomic, readonly) BOOL success;
+@property (strong, nonatomic, readonly, nullable) NSError *error;
+@property (copy, nonatomic, readonly, nullable) NSString *bidToken;
+@property (assign, nonatomic, readonly) float price;
 @end
 
-@interface MATBiddingResponse : NSObject
-@property (nonatomic,assign) NSInteger code;
-@property (nonatomic,strong) NSString *msg;
-@property (nonatomic,strong) MATBiddingResult *bid_result;
+@interface MATBiddingRequestParameter : NSObject
+@property (copy, nonatomic) NSString *placementId;
+@property (copy, nonatomic) NSString *adxId;
 @end
+
+typedef void(^MATBiddingRequestCompletion)(MATBiddingResponse * _Nullable bidResponse);
 
 @interface MATBiddingRequest : NSObject
-@property (nonatomic,weak) id<MATBiddingRequestDelegate> delegate;
-@property (nonatomic,strong) MATBiddingResponse *bidResponse;
-@property (nonatomic,strong) NSString *placementId;
--(void)requestBidding:(NSString*) biddingToken placementId:(NSString*) placementId timestamp:(NSInteger) timestamp;
+
++ (void)reportTrack:(MATBiddingResponse * _Nullable)bidResponse;
+
++ (void)biddingRequestWithParameter:(MATBiddingRequestParameter *)parameter completion:(MATBiddingRequestCompletion)completion;
+
 @end
 
-@protocol MATBiddingRequestDelegate <NSObject>
-- (void)biddingResponse:(NSString*)requestId placementId:(NSString*) placementId;
-@end
 NS_ASSUME_NONNULL_END

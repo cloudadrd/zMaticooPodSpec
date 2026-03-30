@@ -9,12 +9,8 @@
 #define MaticooSDK_h
 
 #import "MaticooAds.h"
-#import "MATBannerAd.h"
-#import "MATNativeAd.h"
-#import "MATInteractAd.h"
 #import "MATInterstitialAd.h"
-#import "MATRewardedVideoAd.h"
-#import "MATSplashAd.h"
+#import "MATBiddingRequest.h"
 
-#endif /* MaticooSDK_h */
+#endif // !MaticooSDK_h
 

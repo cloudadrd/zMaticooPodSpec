@@ -1,36 +1,22 @@
 //
 //  MaticooAds.h
-//  MaticooSDK
+//  zMaticooSDK
 //
-//  Created by root on 2023/4/10.
+//  Created by Mirinda on 2025/12/10.
 //
 
 #import <Foundation/Foundation.h>
-#import "MaticooError.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-#define MAT_EXTRA_GPID   @"gpid"
-
 @interface MaticooAds : NSObject
-/**
- You should pass the singleton method to create the object, then calls the requests of the different types of ads.
-
- @return returns a global instance of Applins
- */
 + (instancetype)shareSDK;
 
-/**
- @param appKey Appkey
- */
-
 - (void)initSDK:(NSString *)appKey onSuccess:(void(^)(void))success onError:(void(^)(NSError* error))errorcb;
-/**
- * If set to TRUE, the server will not display personalized ads based on the user's personal information.
- * When receiving the user's request, and will not synchronize the user's information to other third-party partners.
- * Default is FALSE.
- * @param status 
- */
+
+-(BOOL)isInitSuccess;
+
+-(NSString*)getSDKVersion;
 
 -(BOOL)getIsRestrictUser;
 
@@ -46,23 +32,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(BOOL)getIsAgeRestrictedUser;
 
--(BOOL)verifyPlacementID:(NSString*)placementID;
-
--(id)getPlacement:(NSString*) placementId;
-
--(BOOL)isInitSuccess;
-
--(id)getPlsInstance:(NSString*) placementId;
-
--(void)addPlsInstance:(NSString*) placementId object:(NSObject*)obj;
-
--(NSString*)getSDKVersion;
-
--(NSString*)getBiddingToken:(NSString*) placementID timestamp:(NSInteger)timestamp;
-
 -(void)setMediationName:(NSString*)n;
 
 -(void)setCustomData:(NSDictionary*)customData;
+
+-(NSString*)getBiddingToken:(NSString*) placementID timestamp:(NSInteger)timestamp;
+
+- (void)adapterEventReportWithEventName:(NSString *)eventName des:(NSString *)des;
+
+
+//The following deprecated interfaces are no longer supported starting from SDK version 2.0.0 and will not take effect when called.
+-(BOOL)verifyPlacementID:(NSString*)placementID; //This function has been abandoned
+
+-(id)getPlacement:(NSString*) placementId; //This function has been abandoned
+
+-(id)getPlsInstance:(NSString*) placementId; //This function has been abandoned
+
+-(void)addPlsInstance:(NSString*) placementId object:(NSObject*)obj; //This function has been abandoned
+
 @end
 
 NS_ASSUME_NONNULL_END
