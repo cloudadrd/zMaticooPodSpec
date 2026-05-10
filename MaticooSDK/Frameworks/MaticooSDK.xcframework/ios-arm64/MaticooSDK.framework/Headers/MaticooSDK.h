@@ -10,6 +10,9 @@
 
 #import "MaticooAds.h"
 #import "MATInterstitialAd.h"
+#import "MATBannerAd.h"
+#import "MATRewardInfo.h"
+#import "MATRewardedVideoAd.h"
 #import "MATBiddingRequest.h"
 
 #endif // !MaticooSDK_h

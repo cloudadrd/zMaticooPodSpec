@@ -20,17 +20,25 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(BOOL)getIsRestrictUser;
 
--(void)setDoNotTrackStatus:(BOOL) status;
-
--(BOOL)getDoNotTrackStatus;
-
+//GDPR:
 -(void)setConsentStatus:(BOOL) status;
 
 -(BOOL)getConsentStatus;
 
+//COPPA:
 -(void)setIsAgeRestrictedUser:(BOOL) status;
 
 -(BOOL)getIsAgeRestrictedUser;
+
+/// CCPA:
+-(void)setDoNotSell:(BOOL) doNotSell;
+
+-(BOOL)getDoNotSell;//for Adapter
+
+/// US Privacy String (IAB format ："1YNN"/"1YYN")
+-(void)setUSPrivacy:(NSString *)usPrivacy;
+
+-(NSString *)getUSPrivacy;//for Adapter
 
 -(void)setMediationName:(NSString*)n;
 
@@ -50,6 +58,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)addPlsInstance:(NSString*) placementId object:(NSObject*)obj; //This function has been abandoned
 
+-(void)setDoNotTrackStatus:(BOOL) status;//This function has been abandoned
+
+-(BOOL)getDoNotTrackStatus;//This function has been abandoned
 @end
 
 NS_ASSUME_NONNULL_END

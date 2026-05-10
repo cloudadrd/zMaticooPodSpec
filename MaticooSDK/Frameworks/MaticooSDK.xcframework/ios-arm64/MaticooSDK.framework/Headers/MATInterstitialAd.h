@@ -34,7 +34,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)interstitialAdDidClick:(MATInterstitialAd *)interstitialAd;
 - (void)interstitialAdWillClose:(MATInterstitialAd *)interstitialAd;
 - (void)interstitialAdDidClose:(MATInterstitialAd *)interstitialAd;
-- (void)interstitialAdDidSkip:(MATInterstitialAd *)interstitialAd;
 - (void)interstitialAdEndCardShow:(MATInterstitialAd *)interstitialAd;
 @end
 
