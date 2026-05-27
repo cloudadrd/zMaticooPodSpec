@@ -8,20 +8,12 @@
 #ifndef MaticooSDK_h
 #define MaticooSDK_h
 
-#import <MaticooSDK/MaticooAds.h>
-#import <MaticooSDK/MATInterstitialAd.h>
-#import <MaticooSDK/MATBannerAd.h>
-#import <MaticooSDK/MATRewardInfo.h>
-#import <MaticooSDK/MATRewardedVideoAd.h>
-#import <MaticooSDK/MATBiddingRequest.h>
-#import <MaticooSDK/MATNativeAd.h>
-#import <MaticooSDK/MATAdImage.h>
-#import <MaticooSDK/MATMediaContent.h>
-#import <MaticooSDK/MATMediaView.h>
-#import <MaticooSDK/MATVideoController.h>
-#import <MaticooSDK/MATNativeAdOptions.h>
-#import <MaticooSDK/MATVideoOptions.h>
-#import <MaticooSDK/MATAdChoicesView.h>
+#import "MaticooAds.h"
+#import "MATInterstitialAd.h"
+#import "MATBannerAd.h"
+#import "MATRewardInfo.h"
+#import "MATRewardedVideoAd.h"
+#import "MATBiddingRequest.h"
 
 #endif // !MaticooSDK_h
 
