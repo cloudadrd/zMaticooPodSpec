@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/MATAdChoicesView.h</key>
+		<data>
+		0au3V8CjhNbsGgQGqZLHH9CMzVY=
+		</data>
+		<key>Headers/MATAdImage.h</key>
+		<data>
+		mBLUA0PvYF/7W0zSo7bY0OwnaS8=
+		</data>
 		<key>Headers/MATBannerAd.h</key>
 		<data>
 		r6CDnAuml1lsjF5COvmFkMzUQpM=
@@ -16,6 +24,22 @@
 		<data>
 		x2kDnK7bm2seQ0lCIjwswGuJXiE=
 		</data>
+		<key>Headers/MATMediaContent.h</key>
+		<data>
+		ABF011adEKlkIzDFGkKJ0vwbr1A=
+		</data>
+		<key>Headers/MATMediaView.h</key>
+		<data>
+		Das1TfMoo8F2u5/OV1qbqGebHzE=
+		</data>
+		<key>Headers/MATNativeAd.h</key>
+		<data>
+		X1SsBldLnowG9PCAHcEdYJ/WffU=
+		</data>
+		<key>Headers/MATNativeAdOptions.h</key>
+		<data>
+		/GmmTJZKhMFOMn6vTXuwDZSQxNQ=
+		</data>
 		<key>Headers/MATRewardInfo.h</key>
 		<data>
 		qZZhdWcRasSdgdcGkkqjcjcrEss=
@@ -24,17 +48,29 @@
 		<data>
 		5o40mflLAh0CiaglfWk4so3VEJo=
 		</data>
+		<key>Headers/MATVideoController.h</key>
+		<data>
+		39qupyiTwKTl1fUBgN5X84lzj5I=
+		</data>
+		<key>Headers/MATVideoLifecycleDelegate.h</key>
+		<data>
+		jxBZHZ4aF+Mf3rtn0ZLWj2Iu52E=
+		</data>
+		<key>Headers/MATVideoOptions.h</key>
+		<data>
+		MyDQKymwCq/LamJfXlK07t3+h9c=
+		</data>
 		<key>Headers/MaticooAds.h</key>
 		<data>
 		7YYrFqilx6kmb/MnK6T1iNNCjwE=
 		</data>
 		<key>Headers/MaticooSDK.h</key>
 		<data>
-		yzsQKYF3o90mfScMJV/UO8IYXm8=
+		LyAGm/iC2MwtCvyAt4yOwEDzcl8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nnUwDI2qhGVeZilB/uAa+ZmVon8=
+		PVRatM1JrB7qhiaDZHBlrCb3ZtY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -44,10 +80,6 @@
 		<data>
 		5jmtaM5LgXY4J6iO6WYZ27UCNWk=
 		</data>
-		<key>PrivateHeaders/MATNativeAd.h</key>
-		<data>
-		rT0+FxPdwQMZwVzKTSuoy9lDCxk=
-		</data>
 		<key>PrivateHeaders/MATSplashAd.h</key>
 		<data>
 		T2TxOlBrGofdMzEXgp3DV0Jj4QE=
@@ -55,6 +87,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/MATAdChoicesView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8+yvoukoKaEzyBnQLAuBD1tm4I34qH5aAfaIfGnxLDU=
+			</data>
+		</dict>
+		<key>Headers/MATAdImage.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TaG9TvzlONApgIPwJERfCQfoytvCFCp669cC24JSSDI=
+			</data>
+		</dict>
 		<key>Headers/MATBannerAd.h</key>
 		<dict>
 			<key>hash2</key>
@@ -76,6 +122,34 @@
 			b+Gsm2f7o478ygWRDZcC/0qKt8ILEKsTXtXEboEucBQ=
 			</data>
 		</dict>
+		<key>Headers/MATMediaContent.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vRaJD1cuTTHMA/zEMcccF2VbkUCmo2zncPIW3xVlAX4=
+			</data>
+		</dict>
+		<key>Headers/MATMediaView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5yog3+A4ZqlXU2U5yNVNZ0hKWlFdo8XGzTRuAeD9wPI=
+			</data>
+		</dict>
+		<key>Headers/MATNativeAd.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s5XGtX+eduHWkWtExMLfPgXgRpoNX+bkNveIl++hgOk=
+			</data>
+		</dict>
+		<key>Headers/MATNativeAdOptions.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RmXNavhkh0NX+hnA16ChrQ+rJLoXGChOLK26VmzcKvs=
+			</data>
+		</dict>
 		<key>Headers/MATRewardInfo.h</key>
 		<dict>
 			<key>hash2</key>
@@ -90,6 +164,27 @@
 			GVs+pfjLHnlqqRuHBmenu+nKgHZiUXsOPZEPAzHjo6Q=
 			</data>
 		</dict>
+		<key>Headers/MATVideoController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JnQOW37IymoDQnycGuuIR2+KkGTkwEjBtJ8UIP+t4Og=
+			</data>
+		</dict>
+		<key>Headers/MATVideoLifecycleDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6foTucy3jvWGvnhhXZk7K0XNUaBSFYNKH4dP/hs/HeQ=
+			</data>
+		</dict>
+		<key>Headers/MATVideoOptions.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kbElxp5JrGLL4I5dQe9lrv56dwAI8HvKAo4X3numrm8=
+			</data>
+		</dict>
 		<key>Headers/MaticooAds.h</key>
 		<dict>
 			<key>hash2</key>
@@ -101,7 +196,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XZ1ODjD3g58Ai0KEKLeanDHIkfyP6gO4vIPaKs8bf8M=
+			XnU6m5n7MNz22IuLh7FAhsOUfrKbplMkBQFYxcD3bTE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -116,13 +211,6 @@
 			<key>hash2</key>
 			<data>
 			10frUjUhfXtR7hZYp8tZJf4YFx/MeFr2M+/yydhzWWA=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MATNativeAd.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yiTM+jP2N8P4KrVlES9lW5aZOcRxAHFXB4s7TnMV6wc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MATSplashAd.h</key>
