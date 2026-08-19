@@ -14,6 +14,7 @@
 #import <MaticooSDK/MATRewardInfo.h>
 #import <MaticooSDK/MATRewardedVideoAd.h>
 #import <MaticooSDK/MATBiddingRequest.h>
+#import <MaticooSDK/MATMaticooIds.h>
 #import <MaticooSDK/MATNativeAd.h>
 #import <MaticooSDK/MATAdImage.h>
 #import <MaticooSDK/MATMediaContent.h>

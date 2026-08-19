@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MATNativeAdOptions : NSObject
 
 @property (nonatomic, copy, nullable) NSDictionary<NSString *, id> *extras;
-// 这个参数作为预留参数
+/// Reserved for future use.
 @property (nonatomic, assign) NSInteger adChoicesPlacement;
 @property (nonatomic, strong, nullable) MATVideoOptions *videoOptions;
 

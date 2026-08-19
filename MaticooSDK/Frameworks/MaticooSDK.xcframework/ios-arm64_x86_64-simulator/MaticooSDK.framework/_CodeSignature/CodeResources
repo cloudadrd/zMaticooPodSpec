@@ -14,15 +14,19 @@
 		</data>
 		<key>Headers/MATBannerAd.h</key>
 		<data>
-		r6CDnAuml1lsjF5COvmFkMzUQpM=
+		pLIiU8cMq9btBqEbrF10V08h1+I=
 		</data>
 		<key>Headers/MATBiddingRequest.h</key>
 		<data>
-		FiOwBDRkp3DbtKgQosicVuUVjvs=
+		Oqs/sYQO1c2Z2m819Uno5luTYb4=
 		</data>
 		<key>Headers/MATInterstitialAd.h</key>
 		<data>
-		x2kDnK7bm2seQ0lCIjwswGuJXiE=
+		igDK6C/Juk2Xug13HWhUAAIUlmo=
+		</data>
+		<key>Headers/MATMaticooIds.h</key>
+		<data>
+		TpSGf0HgeOUyYskwY/TZ+CX3PBY=
 		</data>
 		<key>Headers/MATMediaContent.h</key>
 		<data>
@@ -30,15 +34,15 @@
 		</data>
 		<key>Headers/MATMediaView.h</key>
 		<data>
-		Das1TfMoo8F2u5/OV1qbqGebHzE=
+		oP83DVZOf80FH3iC/Y6gfInSA+0=
 		</data>
 		<key>Headers/MATNativeAd.h</key>
 		<data>
-		X1SsBldLnowG9PCAHcEdYJ/WffU=
+		Y+0M0tm0K5+A7PKYwMMijWfp/hc=
 		</data>
 		<key>Headers/MATNativeAdOptions.h</key>
 		<data>
-		/GmmTJZKhMFOMn6vTXuwDZSQxNQ=
+		Rxmm8l3/CwFhgyoRUT+j3rutBD0=
 		</data>
 		<key>Headers/MATRewardInfo.h</key>
 		<data>
@@ -46,7 +50,7 @@
 		</data>
 		<key>Headers/MATRewardedVideoAd.h</key>
 		<data>
-		5o40mflLAh0CiaglfWk4so3VEJo=
+		oI/TA8Q86oF0AimqdNkR1BElmx0=
 		</data>
 		<key>Headers/MATVideoController.h</key>
 		<data>
@@ -62,15 +66,15 @@
 		</data>
 		<key>Headers/MaticooAds.h</key>
 		<data>
-		7YYrFqilx6kmb/MnK6T1iNNCjwE=
+		vMuLWHx9+JCxUW8lf+9gAXG6QKk=
 		</data>
 		<key>Headers/MaticooSDK.h</key>
 		<data>
-		LyAGm/iC2MwtCvyAt4yOwEDzcl8=
+		uncl924csTWJDJEFZeh9GDd9ELE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PVRatM1JrB7qhiaDZHBlrCb3ZtY=
+		QgGAyFmrGUVUGCf0kmuo1hso1eI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -105,21 +109,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FOgW1gjNyNRmbeKcpmxM9elGM7y2N90nPV5gIRLwAnk=
+			JrO/1X5fHHeixoUZ5JoDhBtc2CFnTki/L/limDOu/sM=
 			</data>
 		</dict>
 		<key>Headers/MATBiddingRequest.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BdCYZ1UlsSENC5tL01ctMK4HOUhQi7T3SQLfZHZIOX8=
+			bgp0tN8KKI/drlphnErr/SwnbiYhbGhz0f7FCwvCjmQ=
 			</data>
 		</dict>
 		<key>Headers/MATInterstitialAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b+Gsm2f7o478ygWRDZcC/0qKt8ILEKsTXtXEboEucBQ=
+			mTLDt9N1/8JbqgwSodaQpicvr6YOlwvOwrgFIlkthu4=
+			</data>
+		</dict>
+		<key>Headers/MATMaticooIds.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3/1Maj1dRV4biZHlWDwiCIm+LjkMfDVE2ITGnZXJFMk=
 			</data>
 		</dict>
 		<key>Headers/MATMediaContent.h</key>
@@ -133,21 +144,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5yog3+A4ZqlXU2U5yNVNZ0hKWlFdo8XGzTRuAeD9wPI=
+			OWWJMuTK2D71ce6VTk8JZ1gQpsQ0PgxZuAiIL/6bjTo=
 			</data>
 		</dict>
 		<key>Headers/MATNativeAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s5XGtX+eduHWkWtExMLfPgXgRpoNX+bkNveIl++hgOk=
+			QITvq8EkrkTYhjRpXZ/dwdImQ66YFQJVpKQDumpBCrM=
 			</data>
 		</dict>
 		<key>Headers/MATNativeAdOptions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RmXNavhkh0NX+hnA16ChrQ+rJLoXGChOLK26VmzcKvs=
+			Ij46RBo1FugzRH7drnMdQJz1pyLEcc6Qxpt2TZCI+DQ=
 			</data>
 		</dict>
 		<key>Headers/MATRewardInfo.h</key>
@@ -161,7 +172,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GVs+pfjLHnlqqRuHBmenu+nKgHZiUXsOPZEPAzHjo6Q=
+			U0T7v2eKv6FSZEP1sipkodAudGb4Os9zwITQVxgmxnQ=
 			</data>
 		</dict>
 		<key>Headers/MATVideoController.h</key>
@@ -189,14 +200,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iZ17epcwO1AEYp4untNJ6GVXIhrWc+0nkqQR10OU+Wg=
+			ihxkfJypAPtiAHli/zbI6FRzmCVQsQDF9lkIc6uiMYo=
 			</data>
 		</dict>
 		<key>Headers/MaticooSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XnU6m5n7MNz22IuLh7FAhsOUfrKbplMkBQFYxcD3bTE=
+			lThZPVsBFDqgAmRgQLaMGsQSI+Wt7J10iLWSOB3ea4k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

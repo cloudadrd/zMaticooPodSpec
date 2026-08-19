@@ -8,7 +8,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /// Media rendering container for native ad (image or video).
-/// The actual content is populated by the Show Flow components.
+/// Content is filled in after a successful load when the ad is registered for interaction.
 @interface MATMediaView : UIView
 
 @end

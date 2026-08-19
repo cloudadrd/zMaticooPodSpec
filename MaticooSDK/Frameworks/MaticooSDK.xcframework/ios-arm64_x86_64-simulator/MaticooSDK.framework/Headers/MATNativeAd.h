@@ -56,11 +56,19 @@ typedef NS_ENUM(NSUInteger, MATBrandLogoPosition) {
 - (void)loadAd;
 - (void)loadAd:(NSString *)biddingRequestId;
 
+/// Loads an ad with custom parameters (waterfall). Only keys supported by Maticoo take effect; others are ignored. Values must be `NSString` or `NSNumber`.
+/// Pass the content page URL under the `contentUrl` key when needed for brand safety.
+/// Keys that also exist in `MATNativeAdOptions.extras` are overridden by this `extraMap`.
+- (void)loadAdExtraMap:(nullable NSDictionary<NSString *, id> *)extraMap;
+
+/// Loads a bidding ad with custom parameters. `extraMap` has the same semantics as `-loadAdExtraMap:`.
+- (void)loadAd:(NSString *)biddingRequestId extraMap:(nullable NSDictionary<NSString *, id> *)extraMap;
+
 #pragma mark - Configuration (call before loadAd)
 
 - (void)setNativeAdOptions:(MATNativeAdOptions *)options;
 
-#pragma mark - Self-Rendering: bind views and start visibility check (call after load success, main thread)
+#pragma mark - Self-Rendering: bind views for interaction (call after load success, on the main thread)
 
 - (void)registerViewForInteraction:(nullable UIView *)adView
                          mediaView:(nullable MATMediaView *)mediaView

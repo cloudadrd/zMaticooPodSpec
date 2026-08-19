@@ -9,6 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, MATBrowserAgent) {
+    MATBrowserAgentDefault = 0,
+    MATBrowserAgentInApp = 1,
+    MATBrowserAgentSystem = 2,
+};
+
 @interface MaticooAds : NSObject
 + (instancetype)shareSDK;
 
@@ -48,6 +54,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)adapterEventReportWithEventName:(NSString *)eventName des:(NSString *)des;
 
+/// Sets the browser used when an ad is clicked. Default uses the SDK's standard open strategy.
+- (void)setBrowserAgent:(MATBrowserAgent)browserAgent;
+
+/// Global video start-muted preference for fullscreen ads (Interstitial / Rewarded, and future FullScreen types).
+/// Does **not** apply to Native or Banner (b2v). Only an assignment counts as configured
+/// (ad-level API > this global API > AppSetting > type default).
+/// Reading before any assignment returns NO and does not mean unmuted was configured.
+@property (nonatomic, assign) BOOL videoMute;
 
 //The following deprecated interfaces are no longer supported starting from SDK version 2.0.0 and will not take effect when called.
 -(BOOL)verifyPlacementID:(NSString*)placementID; //This function has been abandoned
