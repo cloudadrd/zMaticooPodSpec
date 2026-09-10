@@ -50,8 +50,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// Called when the ad loads successfully. Retain `maticooIds` and pass it when showing. If both didLoad methods are implemented, only this one is invoked.
 - (void)interstitialAdDidLoad:(MATInterstitialAd *)interstitialAd
                    maticooIds:(MATMaticooIds *)maticooIds;
-- (void)interstitialAdDidLoad:(MATInterstitialAd *)interstitialAd
-    __attribute__((deprecated("Use -interstitialAdDidLoad:maticooIds: instead.")));
 - (void)interstitialAd:(MATInterstitialAd *)interstitialAd didFailWithError:(NSError *)error;
 - (void)interstitialAd:(MATInterstitialAd *)interstitialAd displayFailWithError:(NSError *)error;
 - (void)interstitialAdWillLogImpression:(MATInterstitialAd *)interstitialAd;
@@ -59,6 +57,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)interstitialAdWillClose:(MATInterstitialAd *)interstitialAd;
 - (void)interstitialAdDidClose:(MATInterstitialAd *)interstitialAd;
 - (void)interstitialAdEndCardShow:(MATInterstitialAd *)interstitialAd;
+
+@optional
+/// Called when the ad is displayed. If both WillLogImpression methods are implemented, only this one is invoked.
+- (void)interstitialAdWillLogImpression:(MATInterstitialAd *)interstitialAd
+                             maticooIds:(MATMaticooIds *)maticooIds;
+- (void)interstitialAdDidLoad:(MATInterstitialAd *)interstitialAd
+__attribute__((deprecated("Use -interstitialAdDidLoad:maticooIds: instead.")));
+
 @end
 
 NS_ASSUME_NONNULL_END

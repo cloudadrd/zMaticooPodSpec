@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MATMaticooIds.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol MATBannerAdDelegate;
@@ -40,6 +41,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)bannerAdDismissed:(MATBannerAd*) bannerAd;
 
 @optional
+/// Called when the ad loads successfully. If both didLoad methods are implemented, only this one is invoked.
+- (void)bannerAdDidLoad:(MATBannerAd *)bannerAd
+             maticooIds:(MATMaticooIds *)maticooIds;
+/// Called when the ad is displayed. If both DidImpression methods are implemented, only this one is invoked.
+- (void)bannerAdDidImpression:(MATBannerAd *)bannerAd
+                   maticooIds:(MATMaticooIds *)maticooIds;
 - (void)bannerAdDidLeaveApp:(MATBannerAd*) bannerAd;
 @end
 

@@ -22,6 +22,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// Placement / unit ID.
 @property (nonatomic, copy, readonly) NSString *unitId;
 
+/// Creative ID (CRID) of the selected offer. `nil` when the offer switch is off,
+/// the creative is B2V, or the server did not return a CRID.
+@property (nonatomic, copy, readonly, nullable) NSString *creativeId;
+
 @end
 
 NS_ASSUME_NONNULL_END

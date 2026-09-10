@@ -50,8 +50,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// Called when the ad loads successfully. Retain `maticooIds` and pass it when showing. If both didLoad methods are implemented, only this one is invoked.
 - (void)rewardedVideoAdDidLoad:(MATRewardedVideoAd *)rewardedVideoAd
                     maticooIds:(MATMaticooIds *)maticooIds;
-- (void)rewardedVideoAdDidLoad:(MATRewardedVideoAd *)rewardedVideoAd
-    __attribute__((deprecated("Use -rewardedVideoAdDidLoad:maticooIds: instead.")));
 - (void)rewardedVideoAd:(MATRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *)error;
 - (void)rewardedVideoAd:(MATRewardedVideoAd *)rewardedVideoAd displayFailWithError:(NSError *)error;
 - (void)rewardedVideoAdStarted:(MATRewardedVideoAd *)rewardedVideoAd;
@@ -65,8 +63,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardedVideoAdEndCardShow:(MATRewardedVideoAd *)rewardedVideoAd;
 
 @optional
+/// Called when the ad is displayed. If both WillLogImpression methods are implemented, only this one is invoked.
+- (void)rewardedVideoAdWillLogImpression:(MATRewardedVideoAd *)rewardedVideoAd
+                              maticooIds:(MATMaticooIds *)maticooIds;
 //The following deprecated interfaces are no longer supported starting from SDK version 2.0.0 and will not take effect when called.
 - (void)rewardedVideoAdReward:(MATRewardedVideoAd *)rewardedVideoAd;
+- (void)rewardedVideoAdDidLoad:(MATRewardedVideoAd *)rewardedVideoAd
+    __attribute__((deprecated("Use -rewardedVideoAdDidLoad:maticooIds: instead.")));
 
 @end
 

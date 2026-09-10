@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MATMaticooIds.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -35,6 +36,14 @@ typedef NS_ENUM(NSUInteger, MATBrandLogoPosition) {
 
 @protocol MATNativeAdDelegate <NSObject>
 - (void)nativeAdLoadSuccess:(MATNativeAd *)nativeAd;
+@optional
+/// Called when the ad loads successfully. If both load-success methods are implemented, only this one is invoked.
+- (void)nativeAdLoadSuccess:(MATNativeAd *)nativeAd
+                 maticooIds:(MATMaticooIds *)maticooIds;
+/// Called when the ad is displayed. If both Displayed methods are implemented, only this one is invoked.
+- (void)nativeAdDisplayed:(MATNativeAd *)nativeAd
+               maticooIds:(MATMaticooIds *)maticooIds;
+@required
 - (void)nativeAdFailed:(MATNativeAd *)nativeAd withError:(NSError*)error;
 - (void)nativeAdDisplayed:(MATNativeAd *)nativeAd;
 - (void)nativeAd:(MATNativeAd *)nativeAd displayFailWithError:(NSError *)error;
