@@ -61,6 +61,11 @@ Podfile.lock
 .DS_Store
 
 # End of https://www.gitignore.io/api/cocoapods
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+xcuserdata/
 # zMaticooSDK.xcodeproj/project.xcworkspace/xcuserdata/mirinda.xcuserdatad/UserInterfaceState.xcuserstate
 # zMaticooSDK.xcodeproj/xcuserdata/mirinda.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
 # zMaticooSDK.xcodeproj/project.xcworkspace/xcuserdata/mirinda.xcuserdatad/UserInterfaceState.xcuserstate
