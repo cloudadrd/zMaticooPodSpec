@@ -1,9 +1,7 @@
 // swift-tools-version:5.3
 //
-// 当前仅在 beta 分支提供 SPM（未移动任何版本 tag）。
-//
 // Xcode / Package.swift:
-//   .package(url: "https://github.com/cloudadrd/zMaticooPodSpec.git", .branch("beta"))
+//   .package(url: "https://github.com/cloudadrd/zMaticooPodSpec.git", from: "2.3.1")
 // Product: MaticooSDK
 //
 import PackageDescription
