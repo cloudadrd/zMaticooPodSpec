@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 //
 // Xcode / Package.swift:
-//   .package(url: "https://github.com/cloudadrd/zMaticooPodSpec.git", from: "2.3.1")
+//   .package(url: "https://github.com/cloudadrd/zMaticooPodSpec.git", from: "2.3.2")
 // Product: MaticooSDK
 //
 import PackageDescription

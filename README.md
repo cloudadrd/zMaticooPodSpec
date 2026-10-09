@@ -1,28 +1,54 @@
 # zMaticoo
 
-[![CI Status](https://img.shields.io/travis/acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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/zMaticoo.svg?style=flat)](https://travis-ci.org/acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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/zMaticoo)
 [![Version](https://img.shields.io/cocoapods/v/zMaticoo.svg?style=flat)](https://cocoapods.org/pods/zMaticoo)
 [![License](https://img.shields.io/cocoapods/l/zMaticoo.svg?style=flat)](https://cocoapods.org/pods/zMaticoo)
 [![Platform](https://img.shields.io/cocoapods/p/zMaticoo.svg?style=flat)](https://cocoapods.org/pods/zMaticoo)
+
+zMaticoo iOS SDK. Current version: **2.3.2**.
+
+## Requirements
+
+- iOS 12.0+
+
+## Installation
+
+### CocoaPods
+
+Add the following line to your Podfile:
+
+```ruby
+pod 'zMaticoo', '2.3.2'
+```
+
+### Swift Package Manager
+
+In Xcode, choose **File > Add Package Dependencies…** and enter:
+
+```
+https://github.com/cloudadrd/zMaticooPodSpec.git
+```
+
+Or add it to your `Package.swift`:
+
+```swift
+.package(url: "https://github.com/cloudadrd/zMaticooPodSpec.git", from: "2.3.2")
+```
+
+Then add the `MaticooSDK` product to your app target.
+
+> **Important:** add `-ObjC` to your app target's **Other Linker Flags**. The SDK is a static library, and without this flag its Objective-C categories are not linked. CocoaPods adds the flag automatically; Swift Package Manager does not.
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Changelog
 
-## Installation
+### 2.3.2
 
-zMaticoo is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'zMaticoo'
-```
-
-## Author
-
-acct<blob>=0xE380816768705F49584E6C5257794B547559784C704E686D4C495A47544730597A6B474E5233756D35665A  430001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, 100345612@qq.com
+- Added Swift Package Manager support, including resource bundle loading under SPM.
+- Adapted full-screen ad layouts for iOS 27.1 and iPhone Duo safe areas; full-screen template buttons are positioned lower.
+- Reduced repeated resource bundle lookups in edge cases and narrowed lock scope.
 
 ## License
 
