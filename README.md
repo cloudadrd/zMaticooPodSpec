@@ -4,7 +4,9 @@
 [![License](https://img.shields.io/cocoapods/l/zMaticoo.svg?style=flat)](https://cocoapods.org/pods/zMaticoo)
 [![Platform](https://img.shields.io/cocoapods/p/zMaticoo.svg?style=flat)](https://cocoapods.org/pods/zMaticoo)
 
-zMaticoo iOS SDK. Current version: **2.3.2**.
+zMaticoo iOS SDK. Current version: **2.3.3**.
+
+https://zmaticoo.com
 
 ## Requirements
 
@@ -17,7 +19,7 @@ zMaticoo iOS SDK. Current version: **2.3.2**.
 Add the following line to your Podfile:
 
 ```ruby
-pod 'zMaticoo', '2.3.2'
+pod 'zMaticoo', '2.3.3'
 ```
 
 ### Swift Package Manager
@@ -31,7 +33,7 @@ https://github.com/cloudadrd/zMaticooPodSpec.git
 Or add it to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/cloudadrd/zMaticooPodSpec.git", from: "2.3.2")
+.package(url: "https://github.com/cloudadrd/zMaticooPodSpec.git", from: "2.3.3")
 ```
 
 Then add the `MaticooSDK` product to your app target.
@@ -43,6 +45,17 @@ Then add the `MaticooSDK` product to your app target.
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Changelog
+
+### 2.3.3
+
+- Fixed a race when several loads share one URL, and Native session-split now copies fields from the show context.
+- Added an MP4 playback fallback, and fixed group accounting when a moov retry is exhausted.
+- Shipped the privacy manifest inside the resource bundle.
+- Expanded error 30115 details and playback-failure codes.
+- Kept the impression callback's strong reference to its context, and stopped uploading template_url.
+- Added an off-by-default switch that splits Banner and Native load sessions from cache verify.
+- Reduced Hybrid request memory use, and stopped a visibility retain cycle from forming before impression.
+- Filled mediation fields on adapter load and show-failure events.
 
 ### 2.3.2
 

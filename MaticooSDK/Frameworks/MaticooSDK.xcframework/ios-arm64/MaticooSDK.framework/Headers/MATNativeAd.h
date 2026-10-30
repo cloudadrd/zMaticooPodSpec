@@ -83,6 +83,14 @@ typedef NS_ENUM(NSUInteger, MATBrandLogoPosition) {
                          mediaView:(nullable MATMediaView *)mediaView
                     clickableViews:(nullable NSArray<UIView *> *)clickableViews;
 
+/// Same as above, plus show-time custom parameters. This is the show entry point for native ads:
+/// visibility gating starts here, so mediation adapters should pass their `source` in `extraMap`
+/// to attribute the resulting `show` / `show_failed` events to the right aggregator.
+- (void)registerViewForInteraction:(nullable UIView *)adView
+                         mediaView:(nullable MATMediaView *)mediaView
+                    clickableViews:(nullable NSArray<UIView *> *)clickableViews
+                          extraMap:(nullable NSDictionary<NSString *, id> *)extraMap;
+
 #pragma mark - Actions
 
 - (void)handleAdChoiceClick;

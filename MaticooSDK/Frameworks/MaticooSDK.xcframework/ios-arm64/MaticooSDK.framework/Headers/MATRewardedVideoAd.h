@@ -34,8 +34,22 @@ NS_ASSUME_NONNULL_BEGIN
                       maticooIds:(nullable MATMaticooIds *)maticooIds;
 - (void)showAdFromRootViewControllerWithMaticooIds:(nullable MATMaticooIds *)maticooIds;
 
+/// Shows the ad with custom parameters describing this show call.
+/// Pass the mediation platform under the `source` key so that show-side events report the
+/// platform that actually triggered this impression, which may differ from the one that loaded the ad.
+- (void)showAdFromViewController:(UIViewController *)vc
+                      maticooIds:(nullable MATMaticooIds *)maticooIds
+                        extraMap:(nullable NSDictionary<NSString *, id> *)extraMap;
+- (void)showAdFromRootViewControllerWithMaticooIds:(nullable MATMaticooIds *)maticooIds
+                                          extraMap:(nullable NSDictionary<NSString *, id> *)extraMap;
+
 /// Returns whether the ad associated with `maticooIds` is ready to show.
 - (BOOL)isReadyWithMaticooIds:(nullable MATMaticooIds *)maticooIds;
+
+/// Shows with custom parameters while keeping the ad-selection behavior of `-showAdFromViewController:`.
+/// For mediation adapters that do not track `MATMaticooIds` yet but still need to report the show source.
+- (void)showAdFromViewController:(UIViewController *)vc
+                        extraMap:(nullable NSDictionary<NSString *, id> *)extraMap;
 
 /// Still functional, but in bidding scenarios which loaded ad will be shown is not guaranteed.
 - (void)showAdFromViewController:(UIViewController*) vc
